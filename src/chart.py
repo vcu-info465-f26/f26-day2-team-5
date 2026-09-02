@@ -8,6 +8,10 @@ requirements.txt -- but you reach the figure through the object that
 A Codespace has no screen, so plt.show() would do nothing at all.
 Saving a file works fine. Click output/chart.png in the sidebar to see it.
 """
+# This program appears to produce a saved PNG file of a chart after taking in 
+# information from the database, allowing users information at a glance.
+# Importantly, it seems to use pandas' internal modeler instead of importing matplotlib.
+# How well this works needs to be tested.
 
 import sqlite3
 from pathlib import Path
