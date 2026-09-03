@@ -1,3 +1,9 @@
+# This file handles the database stage of the weather pipeline by saving
+# processed weather records in a local SQLite database.
+# The save_to_db() function accepts a pandas DataFrame and returns no value
+# because its result is the updated weather.db file.
+# It uses INSERT OR REPLACE so running the pipeline again updates records
+# with existing dates instead of creating duplicates.
 """Storing the data. One job: put the table somewhere it will stay.
 
 A SQLite database is a single file. There is no server to start, no
