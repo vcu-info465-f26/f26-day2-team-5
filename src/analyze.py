@@ -1,3 +1,8 @@
+# This file is the analysis stage of the pipeline and it reads from output/weather.db, which build_db.py created, and answers a question about the highest temperature.
+# get_max() returns a pandas DataFrame with a column for the day and one for the highest temperature.
+# The query has no GROUP BY, so it returns one row, the hottest day overall and not one per day.
+
+
 import sqlite3
 from pathlib import Path
 
