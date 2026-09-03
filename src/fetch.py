@@ -4,6 +4,10 @@ This file knows about Open-Meteo. Nothing else in the project does, which
 means changing to a different API is a change to this file alone.
 """
 
+# This file gets a 7-day weather forecast from the Open-Meteo API.
+# The api_call() function returns the forecast as a pandas DataFrame with the day, high, low, and rain.
+# It uses response.raise_for_status() to stop the program if the API request is unsuccessful.
+
 import pandas as pd
 import requests
 
