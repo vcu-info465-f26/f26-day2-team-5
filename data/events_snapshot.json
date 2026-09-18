@@ -1,0 +1,2405 @@
+{
+    "_embedded": {
+        "events": [
+            {
+                "name": "Eagles Live at Sphere",
+                "type": "event",
+                "id": "1AvjZ_aGkU6vXnK",
+                "test": false,
+                "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-09-18-2026/event/1700649D8707EA93",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                        "width": 2426,
+                        "height": 1617,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2026-05-15T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2026-09-19T05:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "On The List VIP Package Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-15T17:00:00Z",
+                            "endDateTime": "2026-09-09T05:00:00Z",
+                            "name": "On The List VIP Package Onsale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "LIVE NATION PRESALE"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Venue Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Ticketmaster Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Sirius XM Presales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2026-09-18",
+                        "localTime": "20:30:00",
+                        "dateTime": "2026-09-19T03:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "653",
+                    "name": "LIVE NATION MUSIC",
+                    "description": "LIVE NATION MUSIC / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "653",
+                        "name": "LIVE NATION MUSIC",
+                        "description": "LIVE NATION MUSIC / NTL / USA"
+                    }
+                ],
+                "info": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "pleaseNote": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "seatmap": {
+                    "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/1700649D8707EA93/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "This event has an overall ticket limit of 8."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    },
+                    "allInclusivePricing": {
+                        "enabled": true
+                    }
+                },
+                "nameOrigin": "custom",
+                "ticketTextLines": {
+                    "en-us": {
+                        "line6": " FRI SEP 18, 2026 8:30PM  ",
+                        "line5": " 255 SANDS AVE, LAS VEGAS ",
+                        "line4": "          SPHERE          ",
+                        "line3": "                          ",
+                        "line2": "          EAGLES          ",
+                        "line1": "   LIVE NATION PRESENTS   "
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/1AvjZ_aGkU6vXnK?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Sphere",
+                            "type": "venue",
+                            "id": "KovZ917Atbr",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "89169",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Las Vegas"
+                            },
+                            "state": {
+                                "name": "Nevada",
+                                "stateCode": "NV"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "255 Sands Avenue"
+                            },
+                            "location": {
+                                "longitude": "-115.16428960",
+                                "latitude": "36.12072670"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Las Vegas",
+                                    "id": "14"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 319
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 651,
+                                "_total": 651,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Eagles",
+                            "type": "attraction",
+                            "id": "K8vZ9171ob7",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/eagles-tickets/artist/734977",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/channel/UCPTypnDNlOZVnD7MY30_YBw"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://itunes.apple.com/artist/id1053549"
+                                    }
+                                ],
+                                "lastfm": [
+                                    {
+                                        "url": "https://www.last.fm/music/Eagles"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/EaglesBand"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Eagles_(band)"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/eagles/"
+                                    }
+                                ],
+                                "musicbrainz": [
+                                    {
+                                        "id": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+                                        "url": "https://musicbrainz.org/artist/f46bd570-5768-462e-b84c-c7c993bbf47e"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://eagles.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                                    "width": 2426,
+                                    "height": 1617,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 29,
+                                "_total": 29,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Eagles Live at Sphere",
+                "type": "event",
+                "id": "1AvjZ_aGkU6FCl6",
+                "test": false,
+                "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-09-19-2026/event/1700649D8720EAC7",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                        "width": 2426,
+                        "height": 1617,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2026-05-15T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2026-09-20T05:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "On The List VIP Package Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-15T17:00:00Z",
+                            "endDateTime": "2026-09-10T05:00:00Z",
+                            "name": "On The List VIP Package Onsale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "LIVE NATION PRESALE"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Venue Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Ticketmaster Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Sirius XM Presales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2026-09-19",
+                        "localTime": "20:30:00",
+                        "dateTime": "2026-09-20T03:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "653",
+                    "name": "LIVE NATION MUSIC",
+                    "description": "LIVE NATION MUSIC / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "653",
+                        "name": "LIVE NATION MUSIC",
+                        "description": "LIVE NATION MUSIC / NTL / USA"
+                    }
+                ],
+                "info": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "pleaseNote": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "seatmap": {
+                    "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/1700649D8720EAC7/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "This event has an overall ticket limit of 8."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    },
+                    "allInclusivePricing": {
+                        "enabled": true
+                    }
+                },
+                "nameOrigin": "custom",
+                "ticketTextLines": {
+                    "en-us": {
+                        "line6": " SAT SEP 19, 2026 8:30PM  ",
+                        "line5": " 255 SANDS AVE, LAS VEGAS ",
+                        "line4": "          SPHERE          ",
+                        "line3": "                          ",
+                        "line2": "          EAGLES          ",
+                        "line1": "   LIVE NATION PRESENTS   "
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/1AvjZ_aGkU6FCl6?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Sphere",
+                            "type": "venue",
+                            "id": "KovZ917Atbr",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "89169",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Las Vegas"
+                            },
+                            "state": {
+                                "name": "Nevada",
+                                "stateCode": "NV"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "255 Sands Avenue"
+                            },
+                            "location": {
+                                "longitude": "-115.16428960",
+                                "latitude": "36.12072670"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Las Vegas",
+                                    "id": "14"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 319
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 651,
+                                "_total": 651,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Eagles",
+                            "type": "attraction",
+                            "id": "K8vZ9171ob7",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/eagles-tickets/artist/734977",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/channel/UCPTypnDNlOZVnD7MY30_YBw"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://itunes.apple.com/artist/id1053549"
+                                    }
+                                ],
+                                "lastfm": [
+                                    {
+                                        "url": "https://www.last.fm/music/Eagles"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/EaglesBand"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Eagles_(band)"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/eagles/"
+                                    }
+                                ],
+                                "musicbrainz": [
+                                    {
+                                        "id": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+                                        "url": "https://musicbrainz.org/artist/f46bd570-5768-462e-b84c-c7c993bbf47e"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://eagles.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                                    "width": 2426,
+                                    "height": 1617,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 29,
+                                "_total": 29,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Eagles Live at Sphere",
+                "type": "event",
+                "id": "1A9Zk37GkdXVozi",
+                "test": false,
+                "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                        "width": 2426,
+                        "height": 1617,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2026-05-15T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2026-11-14T06:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "On The List VIP Package Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-15T17:00:00Z",
+                            "endDateTime": "2026-11-04T06:00:00Z",
+                            "name": "On The List VIP Package Onsale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "LIVE NATION PRESALE"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Venue Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Ticketmaster Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Sirius XM Presales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2026-11-13",
+                        "localTime": "20:30:00",
+                        "dateTime": "2026-11-14T04:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "653",
+                    "name": "LIVE NATION MUSIC",
+                    "description": "LIVE NATION MUSIC / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "653",
+                        "name": "LIVE NATION MUSIC",
+                        "description": "LIVE NATION MUSIC / NTL / USA"
+                    }
+                ],
+                "info": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "pleaseNote": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "products": [
+                    {
+                        "name": "Sphere Parking (Eagles)",
+                        "id": "1A9Zk3vGkdpBLaq",
+                        "url": "https://www.ticketmaster.com/sphere-parking-eagles-las-vegas-nevada-11-13-2026/event/17006481D6E9F25D",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7vAva",
+                                    "name": "Parking"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAFe",
+                                    "name": "Regular"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/17006484FED11E2C/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "This event has an overall ticket limit of 8."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    },
+                    "allInclusivePricing": {
+                        "enabled": true
+                    }
+                },
+                "nameOrigin": "custom",
+                "ticketTextLines": {
+                    "en-us": {
+                        "line6": " FRI NOV 13, 2026 8:30PM  ",
+                        "line5": " 255 SANDS AVE, LAS VEGAS ",
+                        "line4": "          SPHERE          ",
+                        "line3": "                          ",
+                        "line2": "          EAGLES          ",
+                        "line1": "   LIVE NATION PRESENTS   "
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/1A9Zk37GkdXVozi?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Sphere",
+                            "type": "venue",
+                            "id": "KovZ917Atbr",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "89169",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Las Vegas"
+                            },
+                            "state": {
+                                "name": "Nevada",
+                                "stateCode": "NV"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "255 Sands Avenue"
+                            },
+                            "location": {
+                                "longitude": "-115.16428960",
+                                "latitude": "36.12072670"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Las Vegas",
+                                    "id": "14"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 319
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 651,
+                                "_total": 651,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Eagles",
+                            "type": "attraction",
+                            "id": "K8vZ9171ob7",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/eagles-tickets/artist/734977",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/channel/UCPTypnDNlOZVnD7MY30_YBw"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://itunes.apple.com/artist/id1053549"
+                                    }
+                                ],
+                                "lastfm": [
+                                    {
+                                        "url": "https://www.last.fm/music/Eagles"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/EaglesBand"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Eagles_(band)"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/eagles/"
+                                    }
+                                ],
+                                "musicbrainz": [
+                                    {
+                                        "id": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+                                        "url": "https://musicbrainz.org/artist/f46bd570-5768-462e-b84c-c7c993bbf47e"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://eagles.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                                    "width": 2426,
+                                    "height": 1617,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 29,
+                                "_total": 29,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Eagles Live at Sphere",
+                "type": "event",
+                "id": "1A9Zk37GkdXg-zV",
+                "test": false,
+                "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                        "width": 2426,
+                        "height": 1617,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2026-05-15T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2026-11-15T06:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "On The List VIP Package Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-15T17:00:00Z",
+                            "endDateTime": "2026-11-05T06:00:00Z",
+                            "name": "On The List VIP Package Onsale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "LIVE NATION PRESALE"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Venue Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Ticketmaster Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Sirius XM Presales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2026-11-14",
+                        "localTime": "20:30:00",
+                        "dateTime": "2026-11-15T04:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "653",
+                    "name": "LIVE NATION MUSIC",
+                    "description": "LIVE NATION MUSIC / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "653",
+                        "name": "LIVE NATION MUSIC",
+                        "description": "LIVE NATION MUSIC / NTL / USA"
+                    }
+                ],
+                "info": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "pleaseNote": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "seatmap": {
+                    "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/17006484FED61E34/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "This event has an overall ticket limit of 8."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    },
+                    "allInclusivePricing": {
+                        "enabled": true
+                    }
+                },
+                "nameOrigin": "custom",
+                "ticketTextLines": {
+                    "en-us": {
+                        "line6": " SAT NOV 14, 2026 8:30PM  ",
+                        "line5": " 255 SANDS AVE, LAS VEGAS ",
+                        "line4": "          SPHERE          ",
+                        "line3": "                          ",
+                        "line2": "          EAGLES          ",
+                        "line1": "   LIVE NATION PRESENTS   "
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/1A9Zk37GkdXg-zV?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Sphere",
+                            "type": "venue",
+                            "id": "KovZ917Atbr",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "89169",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Las Vegas"
+                            },
+                            "state": {
+                                "name": "Nevada",
+                                "stateCode": "NV"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "255 Sands Avenue"
+                            },
+                            "location": {
+                                "longitude": "-115.16428960",
+                                "latitude": "36.12072670"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Las Vegas",
+                                    "id": "14"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 319
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 651,
+                                "_total": 651,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Eagles",
+                            "type": "attraction",
+                            "id": "K8vZ9171ob7",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/eagles-tickets/artist/734977",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/channel/UCPTypnDNlOZVnD7MY30_YBw"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://itunes.apple.com/artist/id1053549"
+                                    }
+                                ],
+                                "lastfm": [
+                                    {
+                                        "url": "https://www.last.fm/music/Eagles"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/EaglesBand"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Eagles_(band)"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/eagles/"
+                                    }
+                                ],
+                                "musicbrainz": [
+                                    {
+                                        "id": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+                                        "url": "https://musicbrainz.org/artist/f46bd570-5768-462e-b84c-c7c993bbf47e"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://eagles.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                                    "width": 2426,
+                                    "height": 1617,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 29,
+                                "_total": 29,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Eagles Live at Sphere",
+                "type": "event",
+                "id": "1A9Zk37GkdXzvy5",
+                "test": false,
+                "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                        "width": 2426,
+                        "height": 1617,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2026-05-15T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2026-11-29T06:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-13T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "On The List VIP Package Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-15T17:00:00Z",
+                            "endDateTime": "2026-11-19T06:00:00Z",
+                            "name": "On The List VIP Package Onsale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "LIVE NATION PRESALE"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Venue Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Ticketmaster Presale"
+                        },
+                        {
+                            "startDateTime": "2026-05-14T17:00:00Z",
+                            "endDateTime": "2026-05-15T16:59:00Z",
+                            "name": "Sirius XM Presales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2026-11-28",
+                        "localTime": "20:30:00",
+                        "dateTime": "2026-11-29T04:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "653",
+                    "name": "LIVE NATION MUSIC",
+                    "description": "LIVE NATION MUSIC / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "653",
+                        "name": "LIVE NATION MUSIC",
+                        "description": "LIVE NATION MUSIC / NTL / USA"
+                    }
+                ],
+                "info": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "pleaseNote": "PLEASE NOTE: Pricing is all-in and includes fees (before taxes if applicable). This event may include immersive elements such as seat haptics, movement sensations, flashing lights, intense lighting, visual effects, loud noises, and atmospheric simulations. Such elements may aggravate certain medical or physical conditions, and guests should take into consideration these elements, including if they have a history of discomfort or physical symptoms when experiencing them. Visit the Sphere FAQs on thespherevegas.com closer to your event date for the newest event information.",
+                "seatmap": {
+                    "staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/17006484FEE01E4B/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "This event has an overall ticket limit of 8."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    },
+                    "allInclusivePricing": {
+                        "enabled": true
+                    }
+                },
+                "nameOrigin": "custom",
+                "ticketTextLines": {
+                    "en-us": {
+                        "line6": " SAT NOV 28, 2026 8:30PM  ",
+                        "line5": " 255 SANDS AVE, LAS VEGAS ",
+                        "line4": "          SPHERE          ",
+                        "line3": "                          ",
+                        "line2": "          EAGLES          ",
+                        "line1": "   LIVE NATION PRESENTS   "
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/1A9Zk37GkdXzvy5?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Sphere",
+                            "type": "venue",
+                            "id": "KovZ917Atbr",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "89169",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Las Vegas"
+                            },
+                            "state": {
+                                "name": "Nevada",
+                                "stateCode": "NV"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "255 Sands Avenue"
+                            },
+                            "location": {
+                                "longitude": "-115.16428960",
+                                "latitude": "36.12072670"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Las Vegas",
+                                    "id": "14"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 319
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 651,
+                                "_total": 651,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Eagles",
+                            "type": "attraction",
+                            "id": "K8vZ9171ob7",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/eagles-tickets/artist/734977",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "https://www.youtube.com/channel/UCPTypnDNlOZVnD7MY30_YBw"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://itunes.apple.com/artist/id1053549"
+                                    }
+                                ],
+                                "lastfm": [
+                                    {
+                                        "url": "https://www.last.fm/music/Eagles"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/EaglesBand"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Eagles_(band)"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/eagles/"
+                                    }
+                                ],
+                                "musicbrainz": [
+                                    {
+                                        "id": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+                                        "url": "https://musicbrainz.org/artist/f46bd570-5768-462e-b84c-c7c993bbf47e"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://eagles.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_SOURCE",
+                                    "width": 2426,
+                                    "height": 1617,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/531/e32ef1da-b869-442c-9357-428baa6f0531_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "ticketmaster": 29,
+                                "_total": 29,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171ob7?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "/discovery/v2/events.json?countryCode=US&page=0&size=5"
+        },
+        "self": {
+            "href": "/discovery/v2/events.json?size=5&countryCode=US"
+        },
+        "next": {
+            "href": "/discovery/v2/events.json?countryCode=US&page=1&size=5"
+        },
+        "last": {
+            "href": "/discovery/v2/events.json?countryCode=US&page=1999&size=5"
+        }
+    },
+    "page": {
+        "size": 5,
+        "totalElements": 10000,
+        "totalPages": 2000,
+        "number": 0
+    }
+}
