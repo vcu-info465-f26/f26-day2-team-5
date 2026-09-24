@@ -1,5 +1,6 @@
 import requests
 import os
+import json
 
 # Function that gets venue data from Ticketmaster
 def get_venue():
@@ -17,10 +18,14 @@ def get_venue():
     }
 
     # Sends a GET request to Ticketmaster
-    response = requests.get(url, params=params)
+    response = requests.get(url, params=params, timeout=10)
 
     # Converts the JSON response into a Python dictionary
     data = response.json()
+
+    # Saves the response to the data folder
+    with open("data/venues_snapshot.json", "w") as f:
+        json.dump(data, f, indent=4)
 
     # Shows the top-level keys in the response
     print(data.keys())
