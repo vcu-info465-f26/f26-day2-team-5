@@ -10,34 +10,37 @@ def get_events():
 
     # Parameters sent with the API request
     params = {
-        # Reads the Ticketmaster API key from the environment
         "apikey": os.getenv("TICKETMASTER_API_KEY"),
-
-        # Limits results to events in the United States
         "countryCode": "US",
-
-        # Limits the response to 5 events
-        "size": 5
+        "size": 100
     }
 
     # Sends a GET request to Ticketmaster
     response = requests.get(url, params=params)
+    data = response.json()
 
     # Converts the JSON response into a Python dictionary
-    data = response.json()
-    # Saves a snapshot of the event data
+    events = data["_embedded"]["events"]
+
+    unique_events = []
+    event_names = set()
+
+    for event in events:
+        name = event["name"]
+
+        if name not in event_names:
+            unique_events.append(event)
+            event_names.add(name)
+
+        if len(unique_events) == 20:
+            break
+
+        # Save only the 20 selected events
     with open("data/events_snapshot.json", "w") as file:
-        json.dump(data, file, indent=4)
+        json.dump(unique_events, file, indent=4)
 
-
-    # Shows the top-level keys in the response
-    print(data.keys())
-
-    # Prints the full response so we can inspect the returned data
-    print(data)
-
-    # Returns the event data
-    return data
+    print(f"Saved {len(unique_events)} unique events")
+    return unique_events
 
 
 # Runs the function when the file is executed

@@ -7,8 +7,8 @@ The venues and events tables connect through venue_id.
 import os
 import sqlite3
 
-from build_venue_db import create_venues_table, load_venues
-from build_events_db import create_events_table, load_events
+from load_venues import create_venues_table, load_venues
+from load_events import create_events_table, load_events
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

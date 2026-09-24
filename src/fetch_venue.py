@@ -3,39 +3,45 @@ import os
 import json
 
 # Function that gets venue data from Ticketmaster
-def get_venue():
+def get_venues():
 
-    # Venue ID taken from an event returned by Endpoint A
-    venue_id = "KovZ917Atbr"
+    with open("data/events_snapshot.json", "r") as file:
+        data = json.load(file)
 
-    # Ticketmaster Venue Details endpoint
-    url = f"https://app.ticketmaster.com/discovery/v2/venues/{venue_id}.json"
+    # Handles both the old Ticketmaster response and the new event list
+    if isinstance(data, dict):
+        events = data.get("_embedded", {}).get("events", [])
+    else:
+        events = data
 
-    # Parameters sent with the API request
-    params = {
-        # Reads the Ticketmaster API key from the environment
-        "apikey": os.getenv("TICKETMASTER_API_KEY")
-    }
+    venue_ids = set()
 
-    # Sends a GET request to Ticketmaster
-    response = requests.get(url, params=params, timeout=10)
+    for event in events:
+        venues = event.get("_embedded", {}).get("venues", [])
 
-    # Converts the JSON response into a Python dictionary
-    data = response.json()
+        if venues:
+            venue_ids.add(venues[0]["id"])
 
-    # Saves the response to the data folder
-    with open("data/venues_snapshot.json", "w") as f:
-        json.dump(data, f, indent=4)
+    venue_data = []
 
-    # Shows the top-level keys in the response
-    print(data.keys())
+    for venue_id in venue_ids:
 
-    # Prints the full response so we can inspect the data
-    print(data)
+        url = f"https://app.ticketmaster.com/discovery/v2/venues/{venue_id}.json"
 
-    # Returns the venue data
-    return data
+        params = {
+            "apikey": os.getenv("TICKETMASTER_API_KEY")
+        }
+
+        response = requests.get(url, params=params, timeout=10)
+
+        venue_data.append(response.json())
+
+    with open("data/venues_snapshot.json", "w") as file:
+        json.dump(venue_data, file, indent=4)
+
+    print(f"Saved {len(venue_data)} unique venues")
+
+    return venue_data
 
 
-# Runs the function
-get_venue()
+get_venues()
