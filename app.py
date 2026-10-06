@@ -72,6 +72,23 @@ elif events.empty:
 
 else:
     st.subheader("Upcoming Events")
+    location_labels = (
+        events["city"].fillna("Unknown")
+        + ", "
+        + events["state"].fillna("Unknown")
+    )
+
+    location_options = ["All locations"] + sorted(
+        location_labels.unique().tolist()
+    )
+
+    selected_location = st.selectbox(
+        "Filter by location",
+        location_options
+    )
+
+    if selected_location != "All locations":
+        events = events[location_labels == selected_location]
 
     st.metric(
         "Events in Database",
