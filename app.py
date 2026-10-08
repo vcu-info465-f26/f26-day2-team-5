@@ -1,5 +1,7 @@
 import sqlite3
 from pathlib import Path
+from src.venue_compare import display_venue_chart
+from src.plot_upcoming import count_upcoming_by_date, plot_upcoming, NOTE
 
 import pandas as pd
 import streamlit as st
@@ -100,3 +102,12 @@ else:
         use_container_width=True,
         hide_index=True
     )
+
+    display_venue_chart(events)
+
+    # Upcoming events by date chart.
+    st.subheader("Upcoming events over time")
+    counts = count_upcoming_by_date(events)
+    fig = plot_upcoming(counts)
+    st.pyplot(fig)
+    st.caption(NOTE)
