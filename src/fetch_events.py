@@ -17,10 +17,17 @@ def get_events():
 
     # Sends a GET request to Ticketmaster
     response = requests.get(url, params=params)
-    data = response.json()
 
-    # Converts the JSON response into a Python dictionary
-    events = data["_embedded"]["events"]
+    if response.status_code != 200:
+        print(f"API request failed: HTTP {response.status_code}")
+        return []
+
+    data = response.json()
+    events = data.get("_embedded", {}).get("events", [])
+
+    if not events:
+        print("No events returned. Check your API key and search parameters.")
+        return []
 
     unique_events = []
     event_names = set()
@@ -32,10 +39,10 @@ def get_events():
             unique_events.append(event)
             event_names.add(name)
 
-        if len(unique_events) == 20:
+        if len(unique_events) == 250:
             break
 
-        # Save only the 20 selected events
+        # Save up to 100 unique events
     with open("data/events_snapshot.json", "w") as file:
         json.dump(unique_events, file, indent=4)
 
