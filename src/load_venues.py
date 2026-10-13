@@ -27,7 +27,9 @@ def create_venues_table(cur):
             venue_id   TEXT PRIMARY KEY,
             venue_name TEXT,
             city       TEXT,
-            state      TEXT
+            state      TEXT,
+            latitude   REAL,
+            longitude  REAL
         )
     """)
 
@@ -46,14 +48,18 @@ def load_venues(cur):
             if not v.get("id"):
                 continue
             state = v.get("state", {})
+            location = v.get("location", {})  # holds latitude and longitude for the map (#52)
             cur.execute(
-                """INSERT OR REPLACE INTO venues (venue_id, venue_name, city, state)
-                   VALUES (?, ?, ?, ?)""",
+                """INSERT OR REPLACE INTO venues
+                   (venue_id, venue_name, city, state, latitude, longitude)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
                 (
                     v["id"],
                     v.get("name"),
                     v.get("city", {}).get("name"),
                     state.get("stateCode") or state.get("name"),
+                    location.get("latitude"),
+                    location.get("longitude"),
                 ),
             )
 
