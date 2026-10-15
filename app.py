@@ -2,6 +2,7 @@ import sqlite3
 from pathlib import Path
 from src.venue_compare import display_venue_chart
 from src.heatmap import display_event_heatmap
+from src.build_db import main as build_database
 import pandas as pd
 import streamlit as st
 
@@ -13,8 +14,9 @@ DB_PATH = Path(__file__).parent / "project.db"
 def load_events():
     """Load event and venue information from project.db."""
 
+        # Create the database from the saved JSON files when it is missing.
     if not DB_PATH.exists():
-        return None
+        build_database()
 
     connection = sqlite3.connect(DB_PATH)
 
