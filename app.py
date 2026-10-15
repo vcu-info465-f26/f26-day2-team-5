@@ -15,7 +15,20 @@ def load_events():
     """Load event and venue information from project.db."""
 
         # Create the database from the saved JSON files when it is missing.
-    if not DB_PATH.exists():
+    # Refresh the database using the committed JSON snapshots.
+        # Rebuild when the database is missing or a snapshot has changed.
+    snapshot_paths = [
+        DB_PATH.parent / "data" / "events_snapshot.json",
+        DB_PATH.parent / "data" / "venues_snapshot.json",
+    ]
+
+    if (
+        not DB_PATH.exists()
+        or any(
+            snapshot.stat().st_mtime > DB_PATH.stat().st_mtime
+            for snapshot in snapshot_paths
+        )
+    ):
         build_database()
 
     connection = sqlite3.connect(DB_PATH)
