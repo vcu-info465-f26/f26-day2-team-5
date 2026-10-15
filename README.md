@@ -50,6 +50,19 @@ No Ticketmaster API key is required to build the database.
 The generated project.db file is excluded from Git by the
 existing *.db rule in .gitignore.
 
+The dashboard automatically creates project.db from the committed JSON
+snapshots in data/ when the database is missing. No Ticketmaster API key
+or manual database setup is required to start the dashboard.
+
+To rebuild the database manually, run:
+
+```bash
+python src/build_db.py
+```
+
+The generated project.db remains excluded from Git by the existing
+*.db rule in .gitignore.
+
 ## Verify the Database
 
 Run:
@@ -70,4 +83,6 @@ Choose a location to update the table and both charts.
 
 ## Public Dashboard
 
-The public URL will be added after deployment from main.
+Public URL: https://f26team5.streamlit.app
+
+The public dashboard runs from the main branch.
