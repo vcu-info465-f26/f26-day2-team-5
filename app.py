@@ -1,8 +1,7 @@
 import sqlite3
 from pathlib import Path
 from src.venue_compare import display_venue_chart
-from src.plot_upcoming import count_upcoming_by_date, plot_upcoming, NOTE
-
+from src.heatmap import display_event_heatmap
 import pandas as pd
 import streamlit as st
 
@@ -25,7 +24,9 @@ def load_events():
             e.event_date,
             v.venue_name,
             v.city,
-            v.state
+               v.state,
+               v.latitude,
+               v.longitude        
         FROM events AS e
         JOIN venues AS v
             ON e.venue_id = v.venue_id
@@ -104,10 +105,5 @@ else:
     )
 
     display_venue_chart(events)
-
-    # Upcoming events by date chart.
-    st.subheader("Upcoming events over time")
-    counts = count_upcoming_by_date(events)
-    fig = plot_upcoming(counts)
-    st.pyplot(fig)
-    st.caption(NOTE)
+    
+    display_event_heatmap(events)

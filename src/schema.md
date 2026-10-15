@@ -9,6 +9,8 @@ erDiagram
         string venue_name
         string city
         string state
+        float latitude
+        float longitude
     }
 
     EVENTS {
