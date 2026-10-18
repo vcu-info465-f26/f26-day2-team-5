@@ -1,5 +1,5 @@
 *.db
 output/
-
 .venv/
 .vscode/
+.streamlit/secrets.toml
