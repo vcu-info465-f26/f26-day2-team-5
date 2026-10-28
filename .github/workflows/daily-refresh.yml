@@ -1,0 +1,56 @@
+name: Daily data and summary refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch current event and venue data
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          python src/fetch_events.py
+          python src/fetch_venue.py
+
+      - name: Generate Groq summary
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if ! python src/summarize.py; then
+            echo "Summary generation failed; preserving previous summary."
+            git restore -- data/summary.md
+          fi
+
+      - name: Commit updated snapshots and summary
+        run: |
+          rm -f project.db
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git reset -- project.db 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Refresh event data and AI summary"
+            git push
+          fi
