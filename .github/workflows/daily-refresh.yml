@@ -1,5 +1,4 @@
 name: Daily data and summary refresh
-
 on:
   workflow_dispatch:
   schedule:
