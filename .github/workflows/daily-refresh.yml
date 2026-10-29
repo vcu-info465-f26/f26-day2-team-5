@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   refresh:
@@ -39,17 +40,19 @@ jobs:
             git restore -- data/summary.md
           fi
 
-      - name: Commit updated snapshots and summary
-        run: |
-          rm -f project.db
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git reset -- project.db 2>/dev/null || true
+          - name: Remove generated database
+          run: rm -f project.db
 
-          if git diff --cached --quiet; then
-            echo "No data changes to commit."
-          else
-            git commit -m "Refresh event data and AI summary"
-            git push
-          fi
+      - name: Create pull request with refreshed data
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Refresh event data and AI summary"
+          branch: automated-daily-refresh
+          delete-branch: true
+          title: "Automated daily data and summary refresh"
+          body: |
+            This pull request was created automatically.
+            It contains the latest Ticketmaster snapshots and AI summary.
+          add-paths: |
+            data/**
