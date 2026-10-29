@@ -1,0 +1,37 @@
+import { useEffect, useState } from "react";
+
+/** Displays the saved dataset summary above the dashboard visualizations. */
+export default function Summary() {
+	const [summary, setSummary] = useState(null);
+
+	useEffect(() => {
+		const controller = new AbortController();
+
+		// This loads the generated static file; it does not generate a summary.
+		fetch("data/summary.md", { signal: controller.signal })
+			.then((response) => {
+				if (!response.ok) throw new Error("Summary is unavailable");
+				return response.text();
+			})
+			.then(setSummary)
+			.catch((error) => {
+				if (error.name !== "AbortError") setSummary("");
+			});
+
+		return () => controller.abort();
+	}, []);
+
+	if (summary === null) return null;
+
+	return (
+		<section aria-labelledby="dataset-summary-title">
+			<h2 id="dataset-summary-title">Event summary</h2>
+			<p>This summary covers the full saved dataset, regardless of the location filter.</p>
+			{summary.trim() ? (
+				<pre style={{ whiteSpace: "pre-wrap", font: "inherit" }}>{summary}</pre>
+			) : (
+				<p role="status">The event summary is currently unavailable.</p>
+			)}
+		</section>
+	);
+}
