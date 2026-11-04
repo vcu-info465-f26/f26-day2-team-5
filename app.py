@@ -9,6 +9,23 @@ import streamlit as st
 
 # Find project.db from the root of the repository.
 DB_PATH = Path(__file__).parent / "project.db"
+SUMMARY_PATH = Path(__file__).parent / "data" / "summary.md"
+
+
+def display_saved_summary():
+    """Display the summary for the full saved dataset."""
+    st.subheader("Event summary")
+    st.caption(
+        "This summary covers the full saved dataset, regardless of the location filter."
+    )
+
+    try:
+        summary = SUMMARY_PATH.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        st.info("The saved event summary is not available yet.")
+        return
+
+    st.markdown(summary)
 
 
 def load_events():
@@ -118,6 +135,8 @@ else:
         use_container_width=True,
         hide_index=True
     )
+
+    display_saved_summary()
 
     display_venue_chart(events)
     
