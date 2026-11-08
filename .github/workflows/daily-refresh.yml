@@ -40,8 +40,8 @@ jobs:
             git restore -- data/summary.md
           fi
 
-          - name: Remove generated database
-          run: rm -f project.db
+      - name: Remove generated database
+        run: rm -f project.db
 
       - name: Create pull request with refreshed data
         uses: peter-evans/create-pull-request@v7
