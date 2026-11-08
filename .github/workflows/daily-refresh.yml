@@ -1,0 +1,58 @@
+name: Daily data and summary refresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch current event and venue data
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          python src/fetch_events.py
+          python src/fetch_venue.py
+
+      - name: Generate Groq summary
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if ! python src/summarize.py; then
+            echo "Summary generation failed; preserving previous summary."
+            git restore -- data/summary.md
+          fi
+
+          - name: Remove generated database
+          run: rm -f project.db
+
+      - name: Create pull request with refreshed data
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Refresh event data and AI summary"
+          branch: automated-daily-refresh
+          delete-branch: true
+          title: "Automated daily data and summary refresh"
+          body: |
+            This pull request was created automatically.
+            It contains the latest Ticketmaster snapshots and AI summary.
+          add-paths: |
+            data/**
