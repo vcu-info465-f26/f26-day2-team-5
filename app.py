@@ -2,6 +2,7 @@ import sqlite3
 from pathlib import Path
 from src.venue_compare import display_venue_chart
 from src.heatmap import display_event_heatmap
+from src.chat import display_chat
 from src.build_db import main as build_database
 import pandas as pd
 import streamlit as st
@@ -122,3 +123,4 @@ else:
     display_venue_chart(events)
     
     display_event_heatmap(events)
+    display_chat(events, selected_location)
