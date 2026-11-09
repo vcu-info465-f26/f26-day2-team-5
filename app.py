@@ -15,9 +15,6 @@ SUMMARY_PATH = Path(__file__).parent / "data" / "summary.md"
 def display_saved_summary():
     """Display the summary for the full saved dataset."""
     st.subheader("Event summary")
-    st.caption(
-        "This summary covers the full saved dataset, regardless of the location filter."
-    )
 
     try:
         summary = SUMMARY_PATH.read_text(encoding="utf-8")
