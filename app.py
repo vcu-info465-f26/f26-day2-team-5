@@ -14,8 +14,6 @@ SUMMARY_PATH = Path(__file__).parent / "data" / "summary.md"
 
 def display_saved_summary():
     """Display the summary for the full saved dataset."""
-    st.subheader("Event summary")
-
     try:
         summary = SUMMARY_PATH.read_text(encoding="utf-8")
     except FileNotFoundError:
