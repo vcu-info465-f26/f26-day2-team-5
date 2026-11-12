@@ -1,13 +1,5 @@
-# Saved Ticketmaster Event Summary
+## Event Overview
 
-The saved dataset contains 100 events and 27 venue records, with scheduled
-event dates spanning October 15, 2026 through August 20, 2027. Among events
-matched to a venue, Las Vegas has the most events (47), followed by Phoenix
-(22). Charlotte has 4, East Rutherford has 3, and Atlanta has 1.
+Across all locations, the dashboard shows 100 events at 26 venues, with dates ranging from November 12, 2026 to September 29, 2027. Las Vegas, NV has the most events.
 
-This overview describes the full saved dataset, not just the location selected
-in the dashboard.
-
-**Source event date range:** 2026-10-15 to 2027-08-20
-
-**Generated:** 2026-11-09
+*Generated 2026-11-12.*

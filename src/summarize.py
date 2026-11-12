@@ -27,21 +27,16 @@ def get_statistics():
     with sqlite3.connect(build_db.DB_PATH) as conn:
         cur = conn.cursor()
 
-        # Count the events and venues in their respective tables.
-        event_count = cur.execute(
-            "SELECT COUNT(*) FROM events"
-        ).fetchone()[0]
-
-        venue_count = cur.execute(
-            "SELECT COUNT(*) FROM venues"
-        ).fetchone()[0]
-
-        # Find the earliest and latest event dates.
-        first_date, last_date = cur.execute(
+                # Match the dashboard's All locations view.
+        event_count, venue_count, first_date, last_date = cur.execute(
             """
-            SELECT MIN(event_date), MAX(event_date)
-            FROM events
-            WHERE event_date IS NOT NULL AND event_date != ''
+            SELECT
+                COUNT(*),
+                COUNT(DISTINCT v.venue_id),
+                MIN(NULLIF(e.event_date, '')),
+                MAX(NULLIF(e.event_date, ''))
+            FROM events AS e
+            JOIN venues AS v ON e.venue_id = v.venue_id
             """
         ).fetchone()
 
@@ -126,7 +121,7 @@ def main():
         f"Cities with the most events:\n{city_text}"
     )
 
-    print("\nStatistics sent to Groq:")
+    print("\nDashboard Statistics:")
     print(facts)
 
     # Connect to Groq using the same model as the rest of the project.
@@ -142,16 +137,15 @@ def main():
                 {
                     "role": "system",
                     "content": (
-                        "Write a short, clear summary of saved Ticketmaster "
-                        "events for a dashboard visitor. Use only the supplied "
-                        "facts. Do not invent numbers or describe unsupported "
-                        "trends, causes, or explanations. Treat venue count as "
-                        "the number of venues in the saved database."
+                        "Write one short sentence identifying the city or cities "
+                        "with the most events. Use only the supplied city rankings. "
+                        "Mention at most two cities. Use plain text and leave out "
+                        "counts, dates, headings, and bullets."
                     ),
                 },
                 {
                     "role": "user",
-                    "content": facts,
+                    "content": city_text,
                 },
             ],
         )
@@ -168,11 +162,15 @@ def main():
         )
 
     # Add the source date range separately so it is always present.
+    start = date.fromisoformat(first_date).strftime("%B %d, %Y")
+    end = date.fromisoformat(last_date).strftime("%B %d, %Y")
+
     content = (
-        "# Saved Ticketmaster Event Summary\n\n"
+        "## Event Overview\n\n"
+        f"Across all locations, the dashboard shows {event_count} events "
+        f"at {venue_count} venues, with dates ranging from {start} to {end}. "
         f"{summary.strip()}\n\n"
-        f"**Source event date range:** {first_date} to {last_date}\n"
-        f"**Generated:** {date.today().isoformat()}\n"
+        f"*Generated {date.today().isoformat()}.*\n"
     )
 
     save_summary(content)

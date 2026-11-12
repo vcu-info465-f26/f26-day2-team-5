@@ -1,20 +1,347 @@
 [
     {
-        "name": "Flamingo Zone",
+        "name": "Madison Square Garden",
         "type": "venue",
-        "id": "KovZ917AY9X",
+        "id": "KovZpZA7AAEA",
         "test": false,
-        "url": "https://www.ticketmaster.com/flamingo-zone-tickets-las-vegas/venue/189568",
+        "url": "https://www.ticketmaster.com/madison-square-garden-tickets-new-york/venue/483329",
         "locale": "en-us",
+        "aliases": [
+            "msg",
+            "madison square garden"
+        ],
         "images": [
             {
                 "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26179v.png",
+                "url": "https://s1.ticketm.net/dbimages/23135v.jpg",
                 "width": 640,
                 "height": 360,
                 "fallback": false
             }
         ],
+        "postalCode": "10001",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "New York"
+        },
+        "state": {
+            "name": "New York",
+            "stateCode": "NY"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "7th Ave & 32nd Street"
+        },
+        "location": {
+            "longitude": "-73.99160060",
+            "latitude": "40.74970620"
+        },
+        "markets": [
+            {
+                "name": "New York/Tri-State Area",
+                "id": "35"
+            },
+            {
+                "name": "All of US",
+                "id": "51"
+            },
+            {
+                "name": "Northern New Jersey",
+                "id": "55"
+            },
+            {
+                "name": "Connecticut",
+                "id": "124"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 200
+            },
+            {
+                "id": 296
+            },
+            {
+                "id": 345
+            },
+            {
+                "id": 422
+            }
+        ],
+        "social": {
+            "twitter": {
+                "handle": "@TheGarden"
+            }
+        },
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "General Info: (212) 465-MSG1 (6741) or (212) 247-4777 Knicks Information: 1(877) NYK-DUNK. Rangers Fan Line: (212) 465-4459. Season Subscriptions: (212) 465-6073. Disabled Services: (212) 465-6034 Guest Relations: (212) 465 - 6225 Group Sales: (212) 465-6080 Lost and Found: (212) 465-6299",
+            "openHoursDetail": "Monday - Saturday: 12:00pm to 6:00pm **Tickets are not on-sale at the Box Office on the first day an event goes on-sale** The Box Office will be open at 12:00pm daily or 90 minutes before the 1st performance of the day, whichever is earlier and will stay open until 8:00pm or 30 minutes after the last performance of the day begins, whichever is later. Sunday - Closed If an event takes place on Sunday, Box Office will open 90 minutes before the event start time and remain open 1 hour after event start time for Will Call and tickets sales for the evening's event only.",
+            "acceptedPaymentDetail": "American Express, Visa, MasterCard, Discover. ATM machines are located in Chase Square.",
+            "willCallDetail": "Pick-up tickets anytime the day of the show during box office hours (see above). Customers must present the actual credit card used to place the order and a picture ID. MSG cannot accept third party or \u201cdrop offs\u201d from individual patrons."
+        },
+        "parkingDetail": "Prepaid advance parking is available for select events through Ticketmaster or via a link on www.thegarden.com. Madison Square Garden does not own or operate any parking facility.",
+        "accessibleSeatingDetail": "MSG WHEELCHAIR AND TRANSFER SEATING POLICY: Wheelchair and Transfer seating is reserved exclusively for patrons with accessible needs and their companions. Accessible seating is intended for use by an individual with a mobility disability or other disability who requires the accessible features of accessible seating due to a disability, and that individual's companions. Madison Square Garden (MSG) reserves the right to investigate potential misuse of accessible seating and to take all appropriate action against individuals who fraudulently obtain tickets for accessible seating. While tickets for accessible seating legitimately purchased for the use of an individual with disability may be transferred to another individual under the same terms and conditions applicable to other tickets, in the event such ticket is transferred to a non-disabled individual, MSG reserves the right to transfer that individual to other available seating TO ORDER WHEELCHAIR AND TRANSFER SEATING: Tickets for people with accessible needs, subject to availability, may be purchased in several ways: 1) Call Ticketmaster at 866-858-0008 2) Call MSG's Disabled Services Department at (212)465-6115. 3) Visit Madison Square Garden's Box Office (see box office hours above) 4) Order Online with Ticketmaster (select your event from the list to the left) For additional information regarding accessibility at Madison Square Garden or to request any other accommodations, please call MSG's Disabled Services Department at (212) 465-6115 any weekday between 9:30am-4:30pm ET. Service Animals Pets are not permitted at Madison Square Garden. MSG has very specific policies related to service and emotional support animals. Please visit www.thegarden.com to obtain more information for admitting your animal. Assistive listening devices (ALDAs) are available upon request. Please visit the Guest Experience Office across from section 117 for assistance. There is no charge for this service, however some form of identification will be requested and returned to you, once the device is checked back in. Wheelchair Storage: For patrons who wish to transfer to a seat from their wheelchair, we will store your mobility device at the Guest Experience Office. You will receive a claim check for your device. Wheelchair Escorts to Seats: Patrons with mobility impairments who do not have access to a wheelchair may request a wheelchair to transport the individual to/from their seat, free of charge. Please be aware that our personnel cannot remain with you during the event, nor will they allow you to remain in or keep the wheelchair for the duration of the event. In the event a patron requires the use of a wheelchair for the duration of the event, we recommend bringing your own wheelchair or other mobility device. The escort pick-up area is located on the South (toward 31st) side of Chase Square at elevator alcove. Please allow for extra so that you may be accommodated prior to the event start. Simply ask a Guest Experience Representative or a MSG Security Guard for assistance. Elevators: Public elevators are available for use by guests with disabilities and service every seating level",
+        "generalInfo": {
+            "generalRule": "ARRIVE EARLY: Please arrive at least one-hour prior to event time. All patrons will go through a screening process upon entry with all packages, including briefcases and pocketbooks, being inspected prior to entry. Additionally, metal detectors may be utilized for some events. Bags that have passed inspection must fit comfortably under your seat.Please be mindful of traffic conditions, as Midtown Manhattan can be quite congested, especially during the holidays, parades, or special events. No smoking or electronic cigarettes permitted anywhere in the building No reentry. No recording devices No outside food or drink There are no bag or coat check facilities Alcohol Management: For most events at MSG, alcoholic beverages are available for purchase. MSG staff is trained in the nationally recognized T.E.A.M. (Techniques for Effective Alcohol Management) training program for responsible alcohol management. All guests will be required to show ID to purchase alcohol. Guests are not permitted to bring in alcoholic beverages from outside and may not leave with alcohol purchased inside the venue. Management reserves the right to refuse the sale of alcohol to any guest. Please be aware that it is the policy of The Madison Square Garden Company to require all guests who appear to be forty (40) years of age or younger to present a valid form of ID with proof of age in order to purchase alcoholic beverages at Madison Square Garden, Radio City Music Hall, The Beacon Theatre or The Chicago Theatre. Pursuant to applicable State law, MSG accepts only the following forms of identification: \u2022 A valid driver\u2019s license or non-driver identification card issued by the United States Government, a State Government, Commonwealth, Possession or Territory of the United States or a Provincial Government of Canada. \u2022 A valid passport \u2022 A valid U.S. military ID International guests wishing to consume alcohol inside the building must bring a valid passport as the only form of acceptable ID.",
+            "childRule": "For most events, all children who have reached their second birthday require a ticket to gain admittance to Madison Square Garden. Any child who has yet to reach their second birthday does not require a ticket, however, they may not occupy their own seat. Please note, that for certain children's events (such as the Wiggles and Sesame Street Live!), all children who have reached their first birthday require a ticket. Please check the event profile for your specific event for more information prior to your purchase of tickets."
+        },
+        "upcomingEvents": {
+            "tmr": 1,
+            "ticketmaster": 379,
+            "_total": 380,
+            "_filtered": 0
+        },
+        "ada": {
+            "adaPhones": "Inquiries or requests concerning accessibility should be directed to the Accessible Services Department for Madison Square Garden at 888-609-7599.",
+            "adaCustomCopy": "Individuals with disabilities may purchase up to three seats for companions in the wheelchair or other accessible seating areas, provided such seats are available.  Additional tickets, if available, may be purchased as close to the accessible seating areas, as long as it does not exceed the ticket limit for the event.  Please note, for events or specific seating sections where ticket sales are limited to fewer than four tickets per patron, the same ticket restrictions will apply to the purchase of accessible seating.\n\nAccessible seating is intended for use by an individual with a mobility disability or other disability who requires the accessible features of accessible seating due to a disability, and that individual's companions.  Madison Square Garden reserves the right to investigate potential misuse of accessible seating and to take all appropriate action against individuals who fraudulently obtain tickets for accessible seating.  While tickets for accessible seating legitimately purchased for the use of an individual with disability may be transferred to another individual under the same terms and conditions applicable to other tickets, in the event such ticket is transferred to a nondisabled individual, Madison Square Garden reserves the right to transfer that individual to other available seating.\n\nIf the disabled individual cannot attend an event for which he/she has purchased tickets, please contact the Madison Square Garden Disabled Services Department at 212-465-6034 prior to the event taking place for further information. \n\nTickets for individuals with accessible needs, subject to availability, may be purchased in several ways:\n\n1) Online through Ticketmaster.com\n2) By phone to the Disabled Services Department at 888-609-7599\n3) By phone to Ticketmaster at 800-745-3000\n4) In-person by visiting the Madison Square Garden Box Office\n\nAssistive Listening Devices (ALD) are available at Guest Experience locations in the Arena. \n",
+            "adaHours": "For additional information regarding Access at Madison Square Garden or to discuss any other accommodations, please contact the Disabled Services Department at 888-609-7599 between the hours of 9:30am and 4:30pm, Monday - Friday. "
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpZA7AAEA?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Barclays Center",
+        "type": "venue",
+        "id": "KovZ917AtP3",
+        "test": false,
+        "url": "https://www.ticketmaster.com/barclays-center-tickets-brooklyn/venue/393376",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/22822v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "11217",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "Brooklyn"
+        },
+        "state": {
+            "name": "New York",
+            "stateCode": "NY"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "620 Atlantic Ave"
+        },
+        "location": {
+            "longitude": "-73.97519000",
+            "latitude": "40.68285000"
+        },
+        "markets": [
+            {
+                "name": "New York/Tri-State Area",
+                "id": "35"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 345
+            }
+        ],
+        "boxOfficeInfo": {
+            "openHoursDetail": "M-F 12-6pm; Sat 12-4pm; Sun Closed (Hours may differ due to events)",
+            "acceptedPaymentDetail": "American Express, Visa, Mastercard & Discover",
+            "willCallDetail": "No public Will Call"
+        },
+        "parkingDetail": "Parking at Barclays Center is very limited. For more information on parking garages in the area, please go to: https://www.barclayscenter.com/getting-here/parking",
+        "accessibleSeatingDetail": "Subject to availability, tickets for accessible seating may be purchased online for each event through Ticketmaster. Please refer all questions to the Barclays Center Disabled Services A to Z Guide: https://www.barclayscenter.com/center-info/disabled-a-to-z-guide ENTRY: All entrances at Barclays Center are ADA accessible. Re-entry is not permitted. All guests wishing to enter Barclays Center are subject to the established venue/NBA screening guidelines. INTERPRETING SERVICES: Patrons requiring sign language interpretation services for any events at Barclays Center should contact our Guest Services Department at least one week in advance of the event, by emailing guestservices@barclayscenter.com. MOBILITY DEVICE STORAGE & MEDICAL BAGS: Storage is available at Guest Services located at Section 112 on the Main Concourse and Section 212 on the Upper Concourse. SERVICE ANIMALS: Service animals are welcome at Barclays Center. In keeping with ADA regulations. Please contact our Guest Services Department if any accommodations are required, by emailing guestservices@barclayscenter.com.",
+        "generalInfo": {
+            "generalRule": "For a comprehensive guide on all information and policies/rules for attending any Barclays Center event, please go to: https://www.barclayscenter.com/center-info/a-z-guide",
+            "childRule": "For all sporting events and most concerts, children under 2 years old may enter Barclays Center free of charge but must sit on the lap of an accompanying ticketed adult. Any child that has reached their 2nd birthday will require a ticket to enter the arena and must occupy their ticketed seat only. Please note that some shows (especially those intended for children) will have a different policy and may require all children to have a ticket."
+        },
+        "upcomingEvents": {
+            "tmr": 1,
+            "ticketmaster": 220,
+            "_total": 221,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AtP3?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "F1 Las Vegas Strip Autodrome",
+        "type": "venue",
+        "id": "Z7r9jZa7Vr",
+        "test": false,
+        "locale": "en-us",
+        "postalCode": "89149-4060",
+        "timezone": "Etc/GMT",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "location": {
+            "longitude": "0",
+            "latitude": "0"
+        },
+        "upcomingEvents": {
+            "tmr": 1,
+            "_total": 1,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/Z7r9jZa7Vr?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX",
+        "type": "venue",
+        "id": "KovZ917AIHV",
+        "test": false,
+        "url": "https://www.ticketmaster.com/formula-1-heineken-las-vegas-grand-tickets-las-vegas/venue/189522",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/26154v.png",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89169",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "location": {
+            "longitude": "-115.16545100",
+            "latitude": "36.11410400"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 2,
+            "_total": 2,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AIHV?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Allegiant Stadium",
+        "type": "venue",
+        "id": "KovZ917Ax7n",
+        "test": false,
+        "url": "https://www.ticketmaster.com/allegiant-stadium-tickets-las-vegas/venue/189482",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/23729v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89118",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "3333 Al Davis Way"
+        },
+        "location": {
+            "longitude": "-115.18330000",
+            "latitude": "36.09090000"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "Allegiant Stadium Box Office: 725-780-2100 Visit www.allegiantstadium.com for complete venue information.",
+            "openHoursDetail": "Standard Hours: Monday - Friday, 11:00AM - 5:00PM Event & Game Day Hours: 4 hours prior to event time/kick-off **Available for guest assistance only - Tickets are NOT sold at the box office**",
+            "acceptedPaymentDetail": "Tickets are NOT sold at the Box Office windows. Verified tickets are available exclusively at www.ticketmaster.com",
+            "willCallDetail": "Will Call tickets may be picked up at the Ticketmaster Box Office at Allegiant Stadium beginning 4 hours prior to event time/kick-off. Government issued photo identification is required to claim will call tickets. Will call drop-off tickets are not permitted. Tickets are NOT sold at the Box Office windows. Verified tickets are available exclusively at www.ticketmaster.com"
+        },
+        "parkingDetail": "Parking Passes: -Raiders season parking passes are good for Raiders games only. Parking passes can only be accessed digitally via the Raiders official app. -Single game and event parking passes are available for select lots and can be purchased via the SpotHero app. -Purchasing parking upon arrival is based on availability. We strongly encourage you to purchase your parking pass in advance of the event. Accessible Parking: -All accessible parking spaces require a valid ADA placard or a valid ADA license plate. -If accessible parking is full, ADA placards or plate holders will be offered the next available parking space in the reserved parking lots. -ADA placards or plates alone do not grant access to the Allegiant Stadium lots. Oversized Vehicles: -Oversized vehicles, designated as vehicles longer than 20 feet, and trailers are not permitted. -RVs and oversized vehicles should contact the Oasis RV Park for park and ride options.",
+        "accessibleSeatingDetail": "Accessible seating is located throughout Allegiant Stadium and is available on ticketmaster.com. Please look for seats designated with an accessible icon to purchase. For additional accessible needs or questions, please email boxoffice@allegiantstadium.com or call the box office at 725-780-2100.",
+        "generalInfo": {
+            "generalRule": "CLEAR BAG POLICY: - Bags must be clear plastic, vinyl or PVC and must not exceed 12 x 6 x 12 - Small clutch bags, 4.5x 6.5 x 2 can be taken into the stadium with one of the approved clear bags * An exception will be made for any necessary medical items after proper inspection at entry. CASHLESS VENUE: Allegiant Stadium is a cashless venue. Cash will not be accepted as a form of payment at any parking, retail, or concession locations. Guests may convert their cash to a debit card by using one of the Cash-to-Card kiosks located throughout the stadium. Any remaining balance on the debit card can be used at locations where debit payments are accepted. PROHIBITED ITEMS: Prohibited items include, but are not limited to, purses larger than a clutch bag, coolers, briefcases, backpacks, fanny packs, cinch bags, seat cushions, luggage of any kind, computer bags, and camera bags or any bag larger than the permissible size. ADDITIONAL VENUE INFO: For complete venue information, policies, and prohibited items, please visit: www.allegiantstadium.com/plan-your-visit",
+            "childRule": "Children under 24 months do not need a ticket to enter Allegiant Stadium, provided that they are seated on a parents or guardians lap, and do not interfere with the sightlines of others. Children must have a ticket to receive a promotional item. This policy is subject to change on an event by event basis. Any variance will be noted on the event purchase page, More Info tab, on ticketmaster.com."
+        },
+        "upcomingEvents": {
+            "tmr": 1,
+            "ticketmaster": 58,
+            "_total": 59,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917Ax7n?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Grand Prix Plaza Zone",
+        "type": "venue",
+        "id": "KovZ917AVhX",
+        "test": false,
+        "url": "https://www.ticketmaster.com/grand-prix-plaza-zone-tickets-las-vegas/venue/189587",
+        "locale": "en-us",
         "postalCode": "89109",
         "timezone": "America/Los_Angeles",
         "city": {
@@ -29,11 +356,11 @@
             "countryCode": "US"
         },
         "address": {
-            "line1": "152 Albert Avenue"
+            "line1": "4400 Koval Lane"
         },
         "location": {
-            "longitude": "-115.16605400",
-            "latitude": "36.11646400"
+            "longitude": "-115.16162000",
+            "latitude": "36.11006500"
         },
         "markets": [
             {
@@ -47,27 +374,27 @@
             }
         ],
         "upcomingEvents": {
-            "ticketmaster": 1,
-            "_total": 1,
+            "ticketmaster": 7,
+            "_total": 7,
             "_filtered": 0
         },
         "_links": {
             "self": {
-                "href": "/discovery/v2/venues/KovZ917AY9X?locale=en-us"
+                "href": "/discovery/v2/venues/KovZ917AVhX?locale=en-us"
             }
         }
     },
     {
-        "name": "East Harmon Zone",
+        "name": "T-Mobile Zone at Sphere",
         "type": "venue",
-        "id": "KovZ917AY9R",
+        "id": "KovZ917AY9V",
         "test": false,
-        "url": "https://www.ticketmaster.com/east-harmon-zone-tickets-las-vegas/venue/189565",
+        "url": "https://www.ticketmaster.com/tmobile-zone-at-sphere-tickets-las-vegas/venue/189566",
         "locale": "en-us",
         "images": [
             {
                 "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26164v.png",
+                "url": "https://s1.ticketm.net/dbimages/26169v.png",
                 "width": 640,
                 "height": 360,
                 "fallback": false
@@ -87,7 +414,343 @@
             "countryCode": "US"
         },
         "address": {
-            "line1": "4480 Kishner Drive"
+            "line1": "240 Sands Avenue"
+        },
+        "location": {
+            "longitude": "-115.15997200",
+            "latitude": "36.11896600"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 9,
+            "_total": 9,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AY9V?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Spectrum Center",
+        "type": "venue",
+        "id": "KovZpZA6AEIA",
+        "test": false,
+        "url": "https://www.ticketmaster.com/spectrum-center-tickets-charlotte/venue/369357",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/18670v.jpg",
+                "width": 205,
+                "height": 115,
+                "fallback": false
+            }
+        ],
+        "postalCode": "28202",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "Charlotte"
+        },
+        "state": {
+            "name": "North Carolina",
+            "stateCode": "NC"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "333 East Trade Street"
+        },
+        "location": {
+            "longitude": "-80.83992100",
+            "latitude": "35.22522200"
+        },
+        "markets": [
+            {
+                "name": "Charlotte",
+                "id": "2"
+            },
+            {
+                "name": "All of US",
+                "id": "51"
+            },
+            {
+                "name": "South Carolina",
+                "id": "121"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 200
+            },
+            {
+                "id": 243
+            },
+            {
+                "id": 245
+            },
+            {
+                "id": 256
+            },
+            {
+                "id": 278
+            },
+            {
+                "id": 291
+            }
+        ],
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "704-688-8600 For general group sales questions for Spectrum Center: 704.688.9047",
+            "openHoursDetail": "Event Day: The Ticket Office opening hours will vary based on show time and event. Please call 704.688.9000 for more information.",
+            "acceptedPaymentDetail": "American Express, MasterCard, VISA, Discover Card"
+        },
+        "parkingDetail": "Location: None. There are approx. 30,000 parking spaces within a 15 minute walk of Spectrum Center. Prices vary by lot.",
+        "accessibleSeatingDetail": "This venue is accessible. For sight impaired and hearing patrons please contact the Box Office. Spectrum Center is committed to providing every guest with a comfortable and enjoyable experience. The arena is one of the most accessible arenas in the U.S. Seating throughout the venue allows guests with accessible needs flexibility in seat locations and price levels.",
+        "generalInfo": {
+            "generalRule": "Spectrum Center is committed to creating a safe, comfortable, and enjoyable sports and entertainment experience. Guests of Spectrum Center have a right to expect an environment where guests will: \u2022 Respect and appreciate each and every fan. \u2022 Be treated in a consistent, professional and courteous manner by all arena and team personnel. \u2022 Enjoy the arena experience free from disruptive behavior, including foul or abusive language or obscene gestures. \u2022 Consume alcoholic beverages in a responsible manner. Intervention with an impaired, intoxicated or underage guest will be handled in a prompt and safe manner \u2022 Sit only in ticketed seats and show tickets when requested. \u2022 Act in an appropriate manner without fighting, throwing objects or attempting to enter the court or stage area. \u2022 Smoke in designated smoking areas only. \u2022 Wear appropriate clothing and have signage that is free of any obscene or indecent messages. \u2022 Comply with requests from arena staff regarding arena operations and emergency response procedures. The arena staff has been trained to intervene where necessary to help ensure that the above expectations are met, and guests are encouraged to report any inappropriate behavior to the nearest event staff member. Guests who choose not to adhere to these provisions will be subject to ejection without refund and revocation of tickets and may also be in violation of the law resulting in possible arrest and prosecution.",
+            "childRule": "Children 2 years or older must have a ticket for most events at the Spectrum Center. This age restriction can fluctuate from event to event."
+        },
+        "upcomingEvents": {
+            "tmr": 1,
+            "ticketmaster": 67,
+            "_total": 68,
+            "_filtered": 0
+        },
+        "ada": {
+            "adaPhones": "704-688-8600",
+            "adaCustomCopy": "Wheelchair + Companion Seating: Located in all levels of the Arena based on event setup for particular event. \n\nMobility Impaired Patrons + Companion Seating :Located in all levels of the Arena based on event setup for particular event.\n\nSight/Hearing Patrons + Companions will be accommodated directly through the Arena Box Office.",
+            "adaHours": "Event Day: The Ticket Office opening hours will vary based on show time and event. Please call 704.688.9000 for more information."
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpZA6AEIA?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "State Farm Arena",
+        "type": "venue",
+        "id": "KovZpa2Xke",
+        "test": false,
+        "url": "https://www.ticketmaster.com/state-farm-arena-tickets-atlanta/venue/114689",
+        "locale": "en-us",
+        "aliases": [
+            "phillips areana",
+            "philips arena",
+            "phillips arena"
+        ],
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/22348v.jpg",
+                "width": 450,
+                "height": 255,
+                "fallback": false
+            }
+        ],
+        "postalCode": "30303",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "Atlanta"
+        },
+        "state": {
+            "name": "Georgia",
+            "stateCode": "GA"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "One State Farm Drive"
+        },
+        "location": {
+            "longitude": "-84.39456900",
+            "latitude": "33.75779600"
+        },
+        "markets": [
+            {
+                "name": "Atlanta",
+                "id": "10"
+            },
+            {
+                "name": "All of US",
+                "id": "51"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 200
+            },
+            {
+                "id": 220
+            },
+            {
+                "id": 221
+            },
+            {
+                "id": 258
+            },
+            {
+                "id": 327
+            },
+            {
+                "id": 384
+            }
+        ],
+        "social": {
+            "twitter": {
+                "handle": "@statefarmarena"
+            }
+        },
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "404-878-3000 - State Farm Arena Box Office 1-866-715-1500 - Atlanta Hawks",
+            "openHoursDetail": "The Box Office is open on event days and for the first day of all on-sales. (Hours will vary based upon the events and time of on-sales).",
+            "acceptedPaymentDetail": "Accepts: cash, Visa, Mastercard, Discover, American Express",
+            "willCallDetail": "Located at main box office on Centennial Olympic Park Drive. Available for pickup beginning 1 1/2 hours prior to event. Closing time will vary by event. PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
+        },
+        "parkingDetail": "State Farm Arena offers multiple parking options tailored to your needs. Reserve your spot now and save! STATE FARM DRIVE: The best parking, just steps from the arena. Located at 1 State Farm Dr, Atlanta, GA 30303. Less than a 1-minute walk. DIAMOND DECK: VIP parking with exclusive Player/Artist entrance. Located at 100 Lower Andrew Young International Dr, Atlanta, GA 30303. Less than a 1-minute walk. SAPPHIRE DECK: Prime location across the street from the arena. Located at 127 Centennial Olympic Park Dr. NW, Atlanta, GA 30303. Less than a 5-minute walk to arena. RUBY LOT: Easy & convenient arena access. Located below street level. Enter at 199 Alabama St. SW, Atlanta, GA 30303. Less than a 5-minute walk to arena. All lots and decks are covered, except for State Farm Drive parking, which is uncovered. All lots and decks offer ADA parking. Prices vary by event.",
+        "accessibleSeatingDetail": "Accessible seating is available in throughout the arena in various price categories. Seating for the sight/hearing impaired available in the lower level. All accessible seating is subject to availability. All levels of the Arena are accessible by elevator and escalator.",
+        "generalInfo": {
+            "generalRule": "No smoking inside arena. No glass bottles, aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No Backpacks.",
+            "childRule": "For most events, everyone two and older must have a ticket. For Sesame Street Live, children one and older must have a ticket. Please see the ticket information for each event."
+        },
+        "upcomingEvents": {
+            "ticketmaster": 75,
+            "_total": 75,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Capital One Arena",
+        "type": "venue",
+        "id": "KovZpaKuJe",
+        "test": false,
+        "url": "https://www.ticketmaster.com/capital-one-arena-tickets-washington/venue/172453",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/23045v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "20004",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "Washington"
+        },
+        "state": {
+            "name": "District of Columbia",
+            "stateCode": "DC"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "601 F Street NW"
+        },
+        "location": {
+            "longitude": "-77.02002900",
+            "latitude": "38.89741200"
+        },
+        "markets": [
+            {
+                "name": " DC and Maryland\"",
+                "id": "47"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 224
+            },
+            {
+                "id": 377
+            },
+            {
+                "id": 409
+            }
+        ],
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "General Information... 202-628-3200 Accessible Seating Only.. 202-661-5065",
+            "openHoursDetail": "Box office is only open on event days. Opening times vary, but for most events, opening time is 2pm. For events with a start time before 4pm, box office will open 2 hours prior to event. Please call the venue at 202-628-3200 for event specific opening times. *Hours subject to change",
+            "acceptedPaymentDetail": "Cash, Visa, MasterCard, American Express, Discover",
+            "willCallDetail": "Will Call tickets can be picked up anytime the Box Office is open, thru event start time. Customers must present the actual credit card used to place the order and a valid photo ID."
+        },
+        "parkingDetail": "-Street and Paylot parking are available. -Capital One Arena Parking Garage is located at 6th & G Streets NW, and is open to the public 7AM to 12Midnight 7 days a week. The 2 story underground garage has 475 pkg spaces & elevator access to Capital One Arena. Capital One Arena parking facility offers event, daily, & monthly parking(upon availability) 202-628-3200 ext7992",
+        "accessibleSeatingDetail": "To better accommodate your needs, Capital One Arena has requested that all accessible seating ticket accommodations be solicited only through their representatives. Please contact a Capital One Arena representative for further help with your ticket purchase.* Advance ticket purchase may be required. * Box office information is subject to change.",
+        "generalInfo": {
+            "generalRule": "All patrons and bags are subject to search prior to entering Capital One Arena. To increase fan safety and expedite entry, Capital One Arena has implemented a strict no bag policy. Bags, backpacks, and purses will not be permitted inside the arena. Only wallet-size clutches, no larger than 4x6, will be permitted into the arena. Small medical and parenting bags will be permitted on a case by case basis and will be subject to increased security screening (max size 14x14x6). If you are bringing a medical or parenting bag, please use the entrance on the corner of 6th and F Street. Any guest who declines to be searched or is in possession of prohibited items may be denied entry or ejected from the facility. Capital One Arena does not allow fans and patrons to bring in outside food or beverages. For more information on Capital One Arena security and bag policies and a list of prohibited items please click here https://www.capitalonearena.com/articles/capital-one-arena-security-policy Thank you for your cooperation and understanding.",
+            "childRule": "- Children ages 3 and older must have a ticket!! -Certain events, such as Feld events require a ticket starting at age 2"
+        },
+        "upcomingEvents": {
+            "ticketmaster": 174,
+            "_total": 174,
+            "_filtered": 0
+        },
+        "ada": {
+            "adaPhones": "202-661-5065",
+            "adaCustomCopy": "To better accommodate your needs, Capital One Arena has requested that all accessible seating ticket accommodations be solicited only through their representatives. Please contact a Capital One Arena representative for further help with your ticket purchase.* Advance ticket purchase may be required.\n\n* Box office information is subject to change.",
+            "adaHours": "ADA Hours ... 10:00AM - 5PM (Monday-Friday)"
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpaKuJe?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "East Harmon Zone",
+        "type": "venue",
+        "id": "KovZ917AY9R",
+        "test": false,
+        "url": "https://www.ticketmaster.com/east-harmon-zone-tickets-las-vegas/venue/189565",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/26164v.png",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89169",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "260 E Harmon"
         },
         "location": {
             "longitude": "-115.15924000",
@@ -213,13 +876,725 @@
         },
         "upcomingEvents": {
             "tmr": 5,
-            "ticketmaster": 210,
-            "_total": 215,
+            "ticketmaster": 91,
+            "_total": 96,
             "_filtered": 0
         },
         "_links": {
             "self": {
                 "href": "/discovery/v2/venues/KovZpZAJJEdA?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Club Paris Hospitality",
+        "type": "venue",
+        "id": "KovZ917AYb7",
+        "test": false,
+        "url": "https://www.ticketmaster.com/club-paris-hospitality-tickets-las-vegas/venue/189570",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/26159v.png",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89109",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "3655 S. Las Vegas Blvd"
+        },
+        "location": {
+            "longitude": "-115.17035400",
+            "latitude": "36.11247500"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 3,
+            "_total": 3,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AYb7?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "MetLife Stadium",
+        "type": "venue",
+        "id": "KovZpakS7e",
+        "test": false,
+        "url": "https://www.ticketmaster.com/metlife-stadium-tickets-east-rutherford/venue/1233",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/22874v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "07073",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "East Rutherford"
+        },
+        "state": {
+            "name": "New Jersey",
+            "stateCode": "NJ"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "One MetLife Stadium Drive"
+        },
+        "location": {
+            "longitude": "-74.074493",
+            "latitude": "40.81359"
+        },
+        "markets": [
+            {
+                "name": "New York/Tri-State Area",
+                "id": "35"
+            },
+            {
+                "name": "Northern New Jersey",
+                "id": "55"
+            },
+            {
+                "name": "Connecticut",
+                "id": "124"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 296
+            },
+            {
+                "id": 345
+            },
+            {
+                "id": 422
+            }
+        ],
+        "social": {
+            "twitter": {
+                "handle": "@MetLifeStadium"
+            }
+        },
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "Box Office: 201.559.1300, tickets@metlifestadium.com - General Ticket Inquiries - ADA Ticket Inquiries Guest Services: 201.559.1515, info@metlifestadium.com",
+            "openHoursDetail": "MetLife Stadium Box Office is open Monday through Friday 11am through 5pm. The Box Office is located in the West VIP lobby. Please park in Lot G, enter through MetLife Gate and into the large glass doors labeled West VIP.",
+            "acceptedPaymentDetail": "The MetLife Stadium Box Office will accept cash, Visa, Mastercard, Discover, and American Express. Personal checks will not be accepted.",
+            "willCallDetail": "Ticketmaster Will Call may be picked up at any open ticket window. For all events, non-Ticketmaster will call orders may be picked up at the designated will call window. Will call tickets will be available beginning at least 2 hours prior to the scheduled start time for the event."
+        },
+        "parkingDetail": "General Parking Information: * MetLife Stadium Parking Availability: There are approximately 23,000 parking spaces available that are distributed among 14 lots. * There is no street parking available near the stadium. * Parking fees will vary by event. * Accessible parking is available in Lots E, F, & G. Accessible parking is available on a first come / first serve basis. You must have parking pass and state- issued person with disabilities placard or license plate to park in an accessible parking space. Violators will be subject to citation and possible revocation of season or event parking privileges. *Taxi / Black Car, Limousine, and Guest drop offs will be permitted in Lot C. * Bus and R/V Parking is available in Lot L. * All vehicles parking within the stadiums secured parking perimeter are subject to security inspection before being permitted to park. * Hours of Operation will vary per event. For NFL games, parking lots will open 5 hours prior to kickoff. All other events are subject to vary. * Parking passes are valid only for the event or game noted on the pass and for the specific lot. *Please note, all parking information may be amended based on the nature of the event, please contact the stadium at 201-559-1515 or info@metlifestadium.com with any specific questions not addressed above.",
+        "accessibleSeatingDetail": "MetLife Stadium is fully accessible including all concession stand locations, merchandise stands, ATM's and seating areas. Accessible seating for guests with special needs is available on all levels and in all price ranges. Elevators are located in the southeast (HCL Tech), southwest (Verizon), and northwest (Pepsi) corners of the stadium. Ramps are located at the north and south entrances. Seats with removable armrests are located throughout the stadium. A limited number of wheelchairs are located at each of the entrance gates to transport guests with limited mobility to their seating area. Guests may contact the MetLife Stadium at 201-559-1515 or ADAinfo@metlifestadium.com for more information or any additional needs for non-NFL events. MetLife Stadium ADA Ticket Questions call 201-559-1300. New York Giants ADA Ticket Purchases call 888-694-1925. New York Jets ADA Ticket Purchases call 973-549-4585. For wheelchair accessible and limited mobility patrons for non-NFL events, please click on the \"Request Accessible Tickets\" icon on the right side of the page to be taken to a dedicated page for accessible seating purchases. Please request the total number of wheelchair plus companion seats or limited mobility plus companion seats within the same wheelchair dropdown box so you may sit together.",
+        "generalInfo": {
+            "generalRule": "MetLife Stadium is committed to promoting a memorable event day experience for all fans. With that goal in mind, we have developed our Guest Code of Conduct to which we strongly encourage all guests to adhere. Keeping MetLife Stadium and Plaza SMOKE-FREE",
+            "childRule": "For non-NFL events, children under 34 inches height do not require a ticket of their own but must share a seat with an accompanying adult. All children taller than 34 inches require a ticket of their own. For New York Jets games this 34\" rule applies For New York Giants games all guest need a ticket regardless of age. Please contact the stadium directly regarding the suitability of an event for children."
+        },
+        "upcomingEvents": {
+            "ticketmaster": 23,
+            "_total": 23,
+            "_filtered": 0
+        },
+        "ada": {
+            "adaPhones": "For NFL New York Giants: 888-694-1925\n             \nFor NFL New York Jets: 800-469-JETS (5387)              \n            \nFor NON-NFL Events: 1-800-877-7575\n\n",
+            "adaCustomCopy": "For NFL New York Giants: 888-694-1925\n             \nFor NFL New York Jets: 800-469-JETS (5387)                \n\nFor NON-NFL Events: 1-800-877-7575",
+            "adaHours": "Monday - Friday, 9:00am - 5:00pm"
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpakS7e?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Chase Center",
+        "type": "venue",
+        "id": "KovZ917Ah1H",
+        "test": false,
+        "url": "https://www.ticketmaster.com/chase-center-tickets-san-francisco/venue/230012",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/23055v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "94158",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "San Francisco"
+        },
+        "state": {
+            "name": "California",
+            "stateCode": "CA"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "300 16th Street"
+        },
+        "location": {
+            "longitude": "-122.387464",
+            "latitude": "37.76797"
+        },
+        "markets": [
+            {
+                "name": "N. California/N. Nevada",
+                "id": "41"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 250
+            },
+            {
+                "id": 273
+            },
+            {
+                "id": 282
+            },
+            {
+                "id": 341
+            },
+            {
+                "id": 368
+            },
+            {
+                "id": 374
+            },
+            {
+                "id": 382
+            }
+        ],
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "For Golden State Warriors: Ticket Sales: 1-888-GSW-HOOP (option 1) Group Sales: 1-888-GSW-HOOP (option 2) Account Service: 1-888-GSW-HOOP (option 3) Grandview Suites 1-888-GSW-HOOP (option 4) Administration: (510) 986-2200",
+            "openHoursDetail": "Monday-Friday: 10AM - 4PM // Weekends: Only on event days pending door times.",
+            "acceptedPaymentDetail": "You can use our proud partner\u2019s Chase Cards for payment at the Box Office. We also accept, Cash, MasterCard, Visa, American Express, Discover",
+            "willCallDetail": "Will Call tickets may be picked-up at the Chase Center box office with a valid government issued photo I.D. that matches the name on the order, the credit card used to make the purchase, and the confirmation number given at the time of purchase are provided. VIP PACKAGES are subject to the package providers rules for pick up. For the box office to release tickets not in your name you need to submit a written letter of authorization along with a copy of the driver\u2019s license of the party whose name is on the account."
+        },
+        "accessibleSeatingDetail": "Accessible seating is available online through Ticketmaster.com, by calling Ticketmaster phone agents or coming to the Chase Center Box Office. Interpreters are available by request and are dependent upon availability. Please call the Chase Center for further information. Interpreters need to be reserved a minimum of 10 days in advance of the show. Service dogs are allowed at the Chase Center.",
+        "generalInfo": {
+            "generalRule": "ARRIVE EARLY: Please arrive at least one-hour prior to event time. All patrons will go through a screening process upon entry. All bags larger than 14\u201d x 14\u201d x 6\u201d will need to be checked at our bag check location on Warriors Way. Additionally, metal detectors will be utilized for all events. Bags that adhere to policy, must fit comfortably under your seat. Please be mindful of traffic conditions, as San Francisco can be quite congested, especially during the holidays, parades, or special events. No glass bottles, aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No smoking or electronic cigarettes permitted anywhere in the building. No reentry. No recording devices. No outside food or drink. Alcohol Management: For most events at Chase Center, alcoholic beverages are available for purchase. Chase Center staff is trained in the nationally recognized T.E.A.M. (Techniques for Effective Alcohol Management) training program for responsible alcohol management. All guests will be required to show ID to purchase alcohol. Guests are not permitted to bring in alcoholic beverages from outside and may not leave with alcohol purchased inside the venue. Management reserves the right to refuse the sale of alcohol to any guest. Please be aware that it is the policy of Chase Center to require all guests to present a valid form of ID with proof of age in order to purchase alcoholic beverages at Chase Center. Pursuant to applicable State law, Chase Center accepts only the following forms of identification: \u2022 A valid driver\u2019s license or non-driver identification card issued by the United States Government, a State Government, Commonwealth, Possession or Territory of the United States or a Provincial Government of Canada. \u2022 A valid passport \u2022 A valid U.S. military ID International guests wishing to consume alcohol inside the building must bring a valid passport as the only form of acceptable ID.",
+            "childRule": "For most events, all children who have reached their second birthday require a ticket to gain admittance to Chase Center. Any child who has yet to reach their second birthday does not require a ticket, however, they may not occupy their own seat. Please check specific shows for age restrictions. Please check the event profile for your specific event for more information prior to your purchase of tickets."
+        },
+        "upcomingEvents": {
+            "ticketmaster": 54,
+            "_total": 54,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917Ah1H?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Kia Center",
+        "type": "venue",
+        "id": "KovZpZAEvEEA",
+        "test": false,
+        "url": "https://www.ticketmaster.com/kia-center-tickets-orlando/venue/279548",
+        "locale": "en-us",
+        "aliases": [
+            "The Amway Center",
+            "Amway Center"
+        ],
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/27241v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "32801",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "Orlando"
+        },
+        "state": {
+            "name": "Florida",
+            "stateCode": "FL"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "400 W Church St."
+        },
+        "location": {
+            "longitude": "-81.38395700",
+            "latitude": "28.53929300"
+        },
+        "markets": [
+            {
+                "name": "Orlando",
+                "id": "17"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 351
+            }
+        ],
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "Venue information : 407.440.7900 Kia Center events: 407.440.7900 Orlando Magic games: 407.896.2442, select \"2\".",
+            "openHoursDetail": "Hours of Operation: Monday - Friday / 9 a.m. - 6 p.m. Holiday hours may vary",
+            "acceptedPaymentDetail": "Cash, Visa, Mastercard, Discover, & American Express",
+            "willCallDetail": "To pick up tickets, a valid government-issued photo identification is required. Hours: Monday - Friday / 9 a.m. - 6 p.m. and three (3) hours prior to any event. Location: On Church Street (north side of venue)."
+        },
+        "accessibleSeatingDetail": "Wheelchair accessible and companion seats are available at locations dispersed throughout Kia Center, offering guests the choice of an array of prices, amenities and lines of sight. Seating locations vary depending on particular events. It is important to indicate when buying tickets if you require wheelchair accessible seating. Service animals are animals individually trained to do work or perform tasks for the benefit of an individual with a disability. Guests with disabilities are welcome to bring their service animals inside the Kia Center. Service animals may not use additional seats unless a ticket has been purchased for the adjacent seat, but may request accessible seating. Elevators : The Kia Center has fourteen (14) accessible public elavators available for all guests. Parking : Convenient accessible parking is located in the GEICO Garage, which is adjacent to the Kia Center and accessible via the pedestrian bridge on the Terrace Level (Level 3). Additional accessible parking is located in lot 9. There are also accessible parking spaces in surface lots and garages in the area surrounding the Kia Center. Visit Kiacenter.com for more information. Entrance : The Kia Center's main entrance is at the middle block of Church Street between Hughey Avenue and Division Avenue. Accessible entry is also available via the pedestrian bridge on the Terrace Level (Level 3).",
+        "generalInfo": {
+            "generalRule": "Items NOT Allowed: Use of video and/or audio recording equipment is strictly prohibited by event promoters, and the Kia Center reserves the right to confiscate any tape, film, or memory card. Items Allowed: Umbrellas are permitted inside the Kia Center. Umbrellas should be placed under your seat and out of the way of other guests. Please utilize the umbrella sleeves to help keep the floors dry. If necessary, guests may bring strollers to events at the Kia Center. Strollers must be collapsible and fit under your seat. You may not leave strollers in the walkways, gates, or concourses, and our staff will not be responsible for these items. The Kia Center is not responsible for any lost, stolen, or damaged strollers. Smoking is NOT permitted in the Kia Center SMOKING POLICY - ORLANDO VENUES Orlando Venues will allow re-entry for guests to go outside the venue in order to smoke in the designated area on the West side of the Kia Center. WHEN: Magic Games: Beginning at tip off guests can access the designated smoking area towards the Northwest side of the venue via the Disney Atrium. Concerts: When the Opening Act is onstage the guests can begin to access the smoking area towards the Northwest side of the venue via the Disney Atrium. Other Events: Beginning times are TBD depending on the setup of the show. WHERE: Guests can utilize the designated area for smoking by exiting out the Disney Atrium doors located on the west side of the Disney Atrium near the west elevators. Guests must remain at least 25 feet from the venue when smoking. WHEN EXITING: Guests must present their ticket stub to be scanned out and have their hand stamped before exiting the venue. No drinks are permitted to leave the building. WHEN RE-ENTERING: Upon re-entering the building the guests must present their ticket stub to be scanned in again as well as show the stamp on their hand before they re-enter the Kia Center. Guests must have both a ticket that can be scanned back in and a stamp on their hand in order to be allowed entry into the venue. Guests are subject to be searched again upon re-entering the venue. *Policy is subject to change per Orlando Venues Management.",
+            "childRule": "For Orlando Magic and Orlando Predators games, any patron who is 36 inches(3 feet) or taller must have a ticket for entry. For Kia Center events other than Orlando Magic and Orlando Predators games, all children two (2) years of age or older must possess a valid ticket for entry. A child under two (2) years of age, who is admitted free of charge for events, must sit on a lap or patron. Occasionally, a family show (Disney of Ice, Globetrotters, Ringling Bros., etc.) will require children younger than two (2) years old to purchase a ticket. Please check with the box office or online for the show you are attending."
+        },
+        "upcomingEvents": {
+            "ticketmaster": 97,
+            "_total": 97,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpZAEvEEA?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Koval Zone by Heineken",
+        "type": "venue",
+        "id": "KovZ917AY9y",
+        "test": false,
+        "url": "https://www.ticketmaster.com/koval-zone-by-heineken-tickets-las-vegas/venue/189567",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/26174v.png",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89109",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "4155 Koval Ln"
+        },
+        "location": {
+            "longitude": "-115.16491982",
+            "latitude": "36.11187600"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 7,
+            "_total": 7,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AY9y?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Flamingo Zone",
+        "type": "venue",
+        "id": "KovZ917AY9X",
+        "test": false,
+        "url": "https://www.ticketmaster.com/flamingo-zone-tickets-las-vegas/venue/189568",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/26179v.png",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89109",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "152 Albert Avenue"
+        },
+        "location": {
+            "longitude": "-115.16605400",
+            "latitude": "36.11646400"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 4,
+            "_total": 4,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AY9X?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Kaseya Center",
+        "type": "venue",
+        "id": "KovZpZAJtFaA",
+        "test": false,
+        "url": "https://www.ticketmaster.com/kaseya-center-tickets-miami/venue/106601",
+        "locale": "en-us",
+        "aliases": [
+            "americanairlines arena",
+            "american airlines arena"
+        ],
+        "postalCode": "33132",
+        "timezone": "America/New_York",
+        "city": {
+            "name": "Miami"
+        },
+        "state": {
+            "name": "Florida",
+            "stateCode": "FL"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "601 Biscayne Blvd"
+        },
+        "location": {
+            "longitude": "-80.18780500",
+            "latitude": "25.78123200"
+        },
+        "markets": [
+            {
+                "name": "Miami",
+                "id": "15"
+            },
+            {
+                "name": "All of US",
+                "id": "51"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 200
+            },
+            {
+                "id": 334
+            },
+            {
+                "id": 412
+            }
+        ],
+        "social": {
+            "twitter": {
+                "handle": "@AAarena"
+            }
+        },
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "Miami HEAT & Arena Event Sales Information: \u2022 Miami HEAT Season Tickets & Partial Plans (786) 777 HOOP \u2022 Miami HEAT Group Tickets (786) 777 DUNK \u2022 Miami HEAT Premium Seats (Courtside/Flagship/Suites/Loges) (786) 777 4320 \u2022 Arena Event Suite Sales (786) 777 1000 \u2022 Group Ticket & Fundraising Opportunities for Arena Family Shows (786) 777 4FUN (4386)",
+            "openHoursDetail": "Kaseya Center will only be open on event days. Arena Box Office Information (786) 777-1250",
+            "acceptedPaymentDetail": "Visa, MasterCard, Discover, American Express",
+            "willCallDetail": "Will Call is located at the Ticketmaster Box Office on the North Side of the Arena located between Gates 3 & 4. Valid ID required to pick up Will Call Tickets"
+        },
+        "parkingDetail": "Suggested Parking Information: http://d2yex7fc50u2fe.cloudfront.net/pdfs/ Event_parking_options.pdf",
+        "accessibleSeatingDetail": "This is an accessible venue.",
+        "generalInfo": {
+            "generalRule": "For all you need to know from A-Z, please log on to: www.kaseyacenter.com"
+        },
+        "upcomingEvents": {
+            "ticketmaster": 58,
+            "_total": 58,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpZAJtFaA?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Golden 1 Center",
+        "type": "venue",
+        "id": "KovZpZAEF76A",
+        "test": false,
+        "url": "https://www.ticketmaster.com/golden-1-center-tickets-sacramento/venue/229976",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/23091v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "95814",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Sacramento"
+        },
+        "state": {
+            "name": "California",
+            "stateCode": "CA"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "500 David J Stern Walk"
+        },
+        "location": {
+            "longitude": "-121.50023100",
+            "latitude": "38.58037200"
+        },
+        "markets": [
+            {
+                "name": "N. California/N. Nevada",
+                "id": "41"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 250
+            },
+            {
+                "id": 273
+            },
+            {
+                "id": 282
+            },
+            {
+                "id": 341
+            },
+            {
+                "id": 368
+            },
+            {
+                "id": 374
+            },
+            {
+                "id": 382
+            }
+        ],
+        "boxOfficeInfo": {
+            "phoneNumberDetail": "(916) 701-5401",
+            "openHoursDetail": "Tuesday thru Friday 10am to 5pm Saturday thru Monday Closed Event Day Hours 12pm to Event Time",
+            "acceptedPaymentDetail": "The Box Office is now cashless. ONLY accept Mastercard, Visa, American Express, Discover, Apple Pay and Samsung Pay",
+            "willCallDetail": "Will Call tickets may be picked-up at the Golden 1 Center box office if a valid government issued photo I.D. that matches the name on the order, the credit card used to make the purchase, and the confirmation number given at the time of purchase are provided. VIP PACKAGES are subject to the package providers rules for pick up. Once the Will Call window closes, unclaimed tickets will be available through the end of the show at the Guest Services Booth at Section 109, please enter at the Media entrance near the box office. For the box office to release tickets not in your name you need to submit a written letter of authorization along with a copy of the driver\u2019s license of the party whose name is on the account. Tickets are not accepted for Will Call from patrons wishing to leave tickets for others."
+        },
+        "parkingDetail": "Parking available in downtown parking lots and surface street parking. Please visit https://reserve.sacpark.org/ for additional information.",
+        "accessibleSeatingDetail": "Accessible seating is available online through Ticketmaster.com, by calling Ticketmaster phone agents or coming to the Golden 1 Center Box Office. Interpreters are available by request and are dependent upon availability. Please e-mail ADAservices@kings.com for assistance with any ADA related questions. Interpreters need to be reserved a minimum of 10 days in advance of the show. Service dogs are allowed at the Golden 1 Center.",
+        "generalInfo": {
+            "generalRule": "No Food or Beverages (including waters) No Video Cameras. Nonprofessional cameras are allowed for some events, but guests should call Golden 1 Center to verify. Golden 1 Center and DOCO are smoke free areas.",
+            "childRule": "Children two (2) years and older MUST have a ticket. Please check specific shows for age restrictions."
+        },
+        "upcomingEvents": {
+            "tmr": 1,
+            "ticketmaster": 86,
+            "_total": 87,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZpZAEF76A?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "The Performance Zone",
+        "type": "venue",
+        "id": "KovZ917AY9T",
+        "test": false,
+        "url": "https://www.ticketmaster.com/the-performance-zone-tickets-las-vegas/venue/189569",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/26149v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89109",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "4155 Koval Ln"
+        },
+        "location": {
+            "longitude": "-115.16491982",
+            "latitude": "36.11187600"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 4,
+            "_total": 4,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917AY9T?locale=en-us"
+            }
+        }
+    },
+    {
+        "name": "Sphere",
+        "type": "venue",
+        "id": "KovZ917Atbr",
+        "test": false,
+        "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
+        "locale": "en-us",
+        "images": [
+            {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+            }
+        ],
+        "postalCode": "89169",
+        "timezone": "America/Los_Angeles",
+        "city": {
+            "name": "Las Vegas"
+        },
+        "state": {
+            "name": "Nevada",
+            "stateCode": "NV"
+        },
+        "country": {
+            "name": "United States Of America",
+            "countryCode": "US"
+        },
+        "address": {
+            "line1": "255 Sands Avenue"
+        },
+        "location": {
+            "longitude": "-115.16428960",
+            "latitude": "36.12072670"
+        },
+        "markets": [
+            {
+                "name": "Las Vegas",
+                "id": "14"
+            }
+        ],
+        "dmas": [
+            {
+                "id": 319
+            }
+        ],
+        "upcomingEvents": {
+            "ticketmaster": 540,
+            "_total": 540,
+            "_filtered": 0
+        },
+        "_links": {
+            "self": {
+                "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
             }
         }
     },
@@ -289,8 +1664,8 @@
             "childRule": "Please contact the Mortgage Matchup Center ticket office at (602)379-7800, for information. Child policy Varies by event. Children age three (3) and above require a ticket for Phoenix Suns and Phoenix Mercury."
         },
         "upcomingEvents": {
-            "ticketmaster": 87,
-            "_total": 87,
+            "ticketmaster": 73,
+            "_total": 73,
             "_filtered": 0
         },
         "_links": {
@@ -300,86 +1675,85 @@
         }
     },
     {
-        "name": "Moda Center",
+        "name": "Bank of America Stadium",
         "type": "venue",
-        "id": "KovZpa6MXe",
+        "id": "KovZpa3hje",
         "test": false,
-        "url": "https://www.ticketmaster.com/moda-center-tickets-portland/venue/123078",
+        "url": "https://www.ticketmaster.com/bank-of-america-stadium-tickets-charlotte/venue/368876",
         "locale": "en-us",
         "images": [
             {
                 "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/23155v.jpg",
+                "url": "https://s1.ticketm.net/dbimages/22383v.jpg",
                 "width": 640,
                 "height": 360,
                 "fallback": false
             }
         ],
-        "postalCode": "97227",
-        "timezone": "America/Los_Angeles",
+        "postalCode": "28202",
+        "timezone": "America/New_York",
         "city": {
-            "name": "Portland"
+            "name": "Charlotte"
         },
         "state": {
-            "name": "Oregon",
-            "stateCode": "OR"
+            "name": "North Carolina",
+            "stateCode": "NC"
         },
         "country": {
             "name": "United States Of America",
             "countryCode": "US"
         },
         "address": {
-            "line1": "One Center Court, Suite 100"
+            "line1": "800 South Mint Street"
         },
         "location": {
-            "longitude": "-122.66645813",
-            "latitude": "45.53118896"
+            "longitude": "-80.852829",
+            "latitude": "35.225789"
         },
         "markets": [
             {
-                "name": "Portland and More",
-                "id": "37"
+                "name": "Charlotte",
+                "id": "2"
+            },
+            {
+                "name": "South Carolina",
+                "id": "121"
             }
         ],
         "dmas": [
             {
-                "id": 228
+                "id": 243
             },
             {
-                "id": 272
+                "id": 245
             },
             {
-                "id": 331
+                "id": 256
             },
             {
-                "id": 362
+                "id": 291
             }
         ],
         "boxOfficeInfo": {
-            "phoneNumberDetail": "Box Office during events only (503)797-9619",
-            "openHoursDetail": "The Box Office is open 2 hours prior to the start of an event.",
-            "acceptedPaymentDetail": "Apple Pay, Visa, AMX, MC and Discover. We do not accept cash.",
-            "willCallDetail": "Tickets held at will call can be picked up on the day of the performance at the box office beginning 2 hours prior to the event. The customer must present valid form of picture identification and the credit card used for purchase."
+            "phoneNumberDetail": "Carolina Panthers box office - (704) 358-7800",
+            "openHoursDetail": "Box office is located at the Southeast corner between the South and BCBS NC East Gates and due to construction is temporarily only open on event days. For FC match days, the Ticket Office will open 4 hours prior to kickoff time. For concerts and other live events, the Ticket Office will open at 2:00pm on show day.",
+            "acceptedPaymentDetail": "Advance sales - Cash, Visa, MCGame days - Cash only",
+            "willCallDetail": "Open 4 hours prior to game time. Located at box office-southeast corner PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
         },
-        "parkingDetail": "On-site parking at the Garden Garage, the East/West Broadway Garages, and at all times for restaurant and retail parking at the One Center Court Garage. Parking may be purchased in advance at all Ticketmaster Ticket Center locations or by Charge-By-Phone: 800-745-3000.",
-        "accessibleSeatingDetail": "Accessible enhancements active.",
+        "parkingDetail": "Public and private parking available throughout the uptown Charlotte area. Rates vary according to proximity to the stadium. For additional information https://www.bankofamericastadium.com/stadium/parking.html",
+        "accessibleSeatingDetail": "This venue is accessible.",
         "generalInfo": {
-            "generalRule": "No flash cameras allowed inside. No audio or video recording devices allowed inside. No smoking inside the building. Bags and full-length umbrellas are not allowed in the arena. Exclusions apply for medical bags, children's bags and clutches 5X8\"\" or smaller. Bag check is available.",
-            "childRule": "Children under 2 are usually free, but must sit on a ticket holders lap. May vary with event."
+            "generalRule": "-NO Weapons (weapons with permits are not allowed) -NO Illegal Drugs -NO Alcoholic Beverages -NO Food or Beverages -NO Fireworks or Explosives -NO Pets - except service animals assisting those with disabilities -NO Folding chairs -NO Noise makers, horns, helium balloons and beach balls -NO Laser pointers -NO Coolers -NO Umbrellas -NO Videocameras -NO Backpacks -NO Baby Strollers -NO Dufflebags",
+            "childRule": "Chilren age one year (12 months) and up must have a ticket"
         },
         "upcomingEvents": {
-            "ticketmaster": 68,
-            "_total": 68,
+            "ticketmaster": 18,
+            "_total": 18,
             "_filtered": 0
-        },
-        "ada": {
-            "adaPhones": "800-877-7575",
-            "adaCustomCopy": "* Box office information is subject to change.",
-            "adaHours": "Monday-Saturday: 9 AM - 6 PM\nSunday: 12 PM - 6 PM"
         },
         "_links": {
             "self": {
-                "href": "/discovery/v2/venues/KovZpa6MXe?locale=en-us"
+                "href": "/discovery/v2/venues/KovZpa3hje?locale=en-us"
             }
         }
     },
@@ -453,329 +1827,13 @@
             "childRule": "For Bucks games and most concerts, children under the age of 2 years old will not require a ticket but will be required to sit on a ticketed guests lap. Family shows often have different restrictions. Call 414-227-0511 for details on specific events."
         },
         "upcomingEvents": {
-            "ticketmaster": 102,
-            "_total": 102,
+            "ticketmaster": 90,
+            "_total": 90,
             "_filtered": 0
         },
         "_links": {
             "self": {
                 "href": "/discovery/v2/venues/KovZ917A_fV?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Kia Center",
-        "type": "venue",
-        "id": "KovZpZAEvEEA",
-        "test": false,
-        "url": "https://www.ticketmaster.com/kia-center-tickets-orlando/venue/279548",
-        "locale": "en-us",
-        "aliases": [
-            "The Amway Center",
-            "Amway Center"
-        ],
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/27241v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "32801",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "Orlando"
-        },
-        "state": {
-            "name": "Florida",
-            "stateCode": "FL"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "400 W Church St."
-        },
-        "location": {
-            "longitude": "-81.38395700",
-            "latitude": "28.53929300"
-        },
-        "markets": [
-            {
-                "name": "Orlando",
-                "id": "17"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 351
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "Venue information : 407.440.7900 Kia Center events: 407.440.7900 Orlando Magic games: 407.896.2442, select \"2\".",
-            "openHoursDetail": "Hours of Operation: Monday - Friday / 9 a.m. - 6 p.m. Holiday hours may vary",
-            "acceptedPaymentDetail": "Cash, Visa, Mastercard, Discover, & American Express",
-            "willCallDetail": "To pick up tickets, a valid government-issued photo identification is required. Hours: Monday - Friday / 9 a.m. - 6 p.m. and three (3) hours prior to any event. Location: On Church Street (north side of venue)."
-        },
-        "accessibleSeatingDetail": "Wheelchair accessible and companion seats are available at locations dispersed throughout Kia Center, offering guests the choice of an array of prices, amenities and lines of sight. Seating locations vary depending on particular events. It is important to indicate when buying tickets if you require wheelchair accessible seating. Service animals are animals individually trained to do work or perform tasks for the benefit of an individual with a disability. Guests with disabilities are welcome to bring their service animals inside the Kia Center. Service animals may not use additional seats unless a ticket has been purchased for the adjacent seat, but may request accessible seating. Elevators : The Kia Center has fourteen (14) accessible public elavators available for all guests. Parking : Convenient accessible parking is located in the GEICO Garage, which is adjacent to the Kia Center and accessible via the pedestrian bridge on the Terrace Level (Level 3). Additional accessible parking is located in lot 9. There are also accessible parking spaces in surface lots and garages in the area surrounding the Kia Center. Visit Kiacenter.com for more information. Entrance : The Kia Center's main entrance is at the middle block of Church Street between Hughey Avenue and Division Avenue. Accessible entry is also available via the pedestrian bridge on the Terrace Level (Level 3).",
-        "generalInfo": {
-            "generalRule": "Items NOT Allowed: Use of video and/or audio recording equipment is strictly prohibited by event promoters, and the Kia Center reserves the right to confiscate any tape, film, or memory card. Items Allowed: Umbrellas are permitted inside the Kia Center. Umbrellas should be placed under your seat and out of the way of other guests. Please utilize the umbrella sleeves to help keep the floors dry. If necessary, guests may bring strollers to events at the Kia Center. Strollers must be collapsible and fit under your seat. You may not leave strollers in the walkways, gates, or concourses, and our staff will not be responsible for these items. The Kia Center is not responsible for any lost, stolen, or damaged strollers. Smoking is NOT permitted in the Kia Center SMOKING POLICY - ORLANDO VENUES Orlando Venues will allow re-entry for guests to go outside the venue in order to smoke in the designated area on the West side of the Kia Center. WHEN: Magic Games: Beginning at tip off guests can access the designated smoking area towards the Northwest side of the venue via the Disney Atrium. Concerts: When the Opening Act is onstage the guests can begin to access the smoking area towards the Northwest side of the venue via the Disney Atrium. Other Events: Beginning times are TBD depending on the setup of the show. WHERE: Guests can utilize the designated area for smoking by exiting out the Disney Atrium doors located on the west side of the Disney Atrium near the west elevators. Guests must remain at least 25 feet from the venue when smoking. WHEN EXITING: Guests must present their ticket stub to be scanned out and have their hand stamped before exiting the venue. No drinks are permitted to leave the building. WHEN RE-ENTERING: Upon re-entering the building the guests must present their ticket stub to be scanned in again as well as show the stamp on their hand before they re-enter the Kia Center. Guests must have both a ticket that can be scanned back in and a stamp on their hand in order to be allowed entry into the venue. Guests are subject to be searched again upon re-entering the venue. *Policy is subject to change per Orlando Venues Management.",
-            "childRule": "For Orlando Magic and Orlando Predators games, any patron who is 36 inches(3 feet) or taller must have a ticket for entry. For Kia Center events other than Orlando Magic and Orlando Predators games, all children two (2) years of age or older must possess a valid ticket for entry. A child under two (2) years of age, who is admitted free of charge for events, must sit on a lap or patron. Occasionally, a family show (Disney of Ice, Globetrotters, Ringling Bros., etc.) will require children younger than two (2) years old to purchase a ticket. Please check with the box office or online for the show you are attending."
-        },
-        "upcomingEvents": {
-            "ticketmaster": 114,
-            "_total": 114,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpZAEvEEA?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Paycom Center",
-        "type": "venue",
-        "id": "KovZpa2Wre",
-        "test": false,
-        "url": "https://www.ticketmaster.com/paycom-center-tickets-oklahoma-city/venue/98958",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/23056v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "73102",
-        "timezone": "America/Chicago",
-        "city": {
-            "name": "Oklahoma City"
-        },
-        "state": {
-            "name": "Oklahoma",
-            "stateCode": "OK"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "100 West Reno"
-        },
-        "location": {
-            "longitude": "-97.51459400",
-            "latitude": "35.46339100"
-        },
-        "markets": [
-            {
-                "name": "Oklahoma",
-                "id": "125"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 349
-            },
-            {
-                "id": 403
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "Arena: 405-602-8700 Thunder Ticket Office: 405.208.HOOP (4667)",
-            "openHoursDetail": "Paycom Center's Box Office is located just off West Reno between the two main entrances on the north side of the arena. Currently, it is temporarily closed on non-event days. On event days, the Box Office is open at 12pm (noon) on Mondays-Saturdays, or four hours prior to the event time on Sundays. Some events may have additional hours.",
-            "acceptedPaymentDetail": "Paycom Center is a cashless venue. The Box Office accepts, Visa, MasterCard, American Express and Discover cards, as well as mobile wallet (Apple Pay, Google Pay) payments.",
-            "willCallDetail": "When purchasing tickets by phone or online, you may choose to pick them up at the Box Office Will Call window on the day of the show. Please be prepared to present the credit card used to purchase the tickets, as well as a photo I.D. Press and VIP tickets, or tickets left by a third party, may also be picked up at Will Call on the day of the event. A photo I.D. is required."
-        },
-        "parkingDetail": "Parking is available just across the street from Paycom Center in the underground parking garage at the neighboring Prairie Surf Studios, which is managed by Republic Parking Systems. Parking garage entrances are located on the east side on E.K. Gaylord and the west side on N. Robinson. Parking spaces for disabled guests driving properly licensed or tagged vehicles and are located near all four elevator entrances. Additional parking is available throughout Downtown and Bricktown. There are more than 18,000 parking spaces including approximately 1,300 parking meters. For further information on Oklahoma City parking facilities, you may call (405) 235-PARK or visit www.parkingokc.com.",
-        "accessibleSeatingDetail": "Paycom Center meets or exceeds all structural and service requirements as stipulated by the Americans with Disabilities Act. Restrooms, drinking fountains, and concession counters are accessible to guests with disabilities. Additional services are listed below. Accessible Tickets/Seating: Wheelchair accessible seats are available in all price levels. Up to three companion tickets may be purchased with each wheelchair accessible ticket. Please indicate at the time of purchase if you require accessible seating. Accessible Drop-off: Passengers may be dropped off at Reno and Robinson near the northwest entrance to Paycom Center. Elevators: Elevators are located throughout the facility for wheelchair access to all levels. The elevators near Section 101, just inside the northwest entrance, provide access to the arena floor. Elevator on club level nearest Section 205. See the maps at the center of this guide for exact locations. Emergency Evacuation: Paycom Center staff members have been trained in emergency preparedness and evacuation procedures. Key employees are assigned to assist patrons with disabilities to safety. Listening Devices: Listening devices may be rented free of charge at the Guest Relations Desks located at each of the main entrances. A credit card or check deposit, as well as a valid I.D., are required to ensure the return of equipment. Parking: Accessible parking is available in the parking lots on the south side of Paycom Center. Entrances are available on S.W. 3rd Street, east of Robinson. Accessible parking spaces are also available in the underground parking garage at the neighboring Prairie Surf Studios. See Parking for additional information. Service Animals: Trained guide dogs or service animals are permitted to assist guests inside the arena. If special accommodations are required for your service animal, please notify us at the time of your ticket purchase. All other animals are prohibited. Sign Interpreters: Guests who require interpreting services during an event, should contact the Guest Relations Manager by calling (405) 602-8700 within three weeks of the event. Telephones: Telephones are provided at Guest Relations locations and throughout Paycom Center, courtesy of Cox Communications. TDD machines and volume-enhanced phones are available. Wheelchair Assistance: Paycom Center offers wheelchair service for guests who may need assistance to and from their seats. Please contact a Guest Relations representative for assistance. Wheelchair assistance is provided on a first-come, first-served basis. Due to the limited number of wheelchairs available, they may not be borrowed or rented as seating during the event. If wheelchair assistance becomes necessary during an event, please notify the nearest staff member.",
-        "generalInfo": {
-            "generalRule": "For your safety, once a person exits Paycom Center, re-entry is strictly prohibited. For safety reasons, prohibited items include but are not limited to: - Alcohol, illegal drugs or any paraphernalia associated with drug use - Cans, bottles, coolers or other similar containers - Fireworks - Flags/Signs with poles - Laser pens/pointers of any type - Noisemakers such as air horns - Outside food or drinks - Oversized bags, including backpacks, duffel bags or diaper bags - Weapons of any type, including chains, knives and firearms - Any other item deemed unacceptable by event or building management For safety reasons, prohibited items include but are not limited to: - Alcohol, illegal drugs or any paraphernalia associated with drug use - Cans, bottles, coolers or other similar containers - Fireworks - Flags/Signs with poles - Laser pens/pointers of any type - Noisemakers such as air horns - Outside food or drinks - Oversized bags, including backpacks, duffel bags or diaper bags - Weapons of any type, including chains, knives and firearms - Any other item deemed unacceptable by event or building management",
-            "childRule": "Most events do not require a ticket for children under the age of two. However, in order for a child to have his or her own seat, a ticket is required. Some shows intended for young children do require children over the age of one to have a ticket. Please call (405) 602-8700 in advance to verify the policy for a specific event."
-        },
-        "upcomingEvents": {
-            "tmr": 3,
-            "ticketmaster": 80,
-            "_total": 83,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpa2Wre?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Spectrum Center",
-        "type": "venue",
-        "id": "KovZpZA6AEIA",
-        "test": false,
-        "url": "https://www.ticketmaster.com/spectrum-center-tickets-charlotte/venue/369357",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/18670v.jpg",
-                "width": 205,
-                "height": 115,
-                "fallback": false
-            }
-        ],
-        "postalCode": "28202",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "Charlotte"
-        },
-        "state": {
-            "name": "North Carolina",
-            "stateCode": "NC"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "333 East Trade Street"
-        },
-        "location": {
-            "longitude": "-80.83992100",
-            "latitude": "35.22522200"
-        },
-        "markets": [
-            {
-                "name": "Charlotte",
-                "id": "2"
-            },
-            {
-                "name": "All of US",
-                "id": "51"
-            },
-            {
-                "name": "South Carolina",
-                "id": "121"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 200
-            },
-            {
-                "id": 243
-            },
-            {
-                "id": 245
-            },
-            {
-                "id": 256
-            },
-            {
-                "id": 278
-            },
-            {
-                "id": 291
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "704-688-8600 For general group sales questions for Spectrum Center: 704.688.9047",
-            "openHoursDetail": "Event Day: The Ticket Office opening hours will vary based on show time and event. Please call 704.688.9000 for more information.",
-            "acceptedPaymentDetail": "American Express, MasterCard, VISA, Discover Card"
-        },
-        "parkingDetail": "Location: None. There are approx. 30,000 parking spaces within a 15 minute walk of Spectrum Center. Prices vary by lot.",
-        "accessibleSeatingDetail": "This venue is accessible. For sight impaired and hearing patrons please contact the Box Office. Spectrum Center is committed to providing every guest with a comfortable and enjoyable experience. The arena is one of the most accessible arenas in the U.S. Seating throughout the venue allows guests with accessible needs flexibility in seat locations and price levels.",
-        "generalInfo": {
-            "generalRule": "Spectrum Center is committed to creating a safe, comfortable, and enjoyable sports and entertainment experience. Guests of Spectrum Center have a right to expect an environment where guests will: \u2022 Respect and appreciate each and every fan. \u2022 Be treated in a consistent, professional and courteous manner by all arena and team personnel. \u2022 Enjoy the arena experience free from disruptive behavior, including foul or abusive language or obscene gestures. \u2022 Consume alcoholic beverages in a responsible manner. Intervention with an impaired, intoxicated or underage guest will be handled in a prompt and safe manner \u2022 Sit only in ticketed seats and show tickets when requested. \u2022 Act in an appropriate manner without fighting, throwing objects or attempting to enter the court or stage area. \u2022 Smoke in designated smoking areas only. \u2022 Wear appropriate clothing and have signage that is free of any obscene or indecent messages. \u2022 Comply with requests from arena staff regarding arena operations and emergency response procedures. The arena staff has been trained to intervene where necessary to help ensure that the above expectations are met, and guests are encouraged to report any inappropriate behavior to the nearest event staff member. Guests who choose not to adhere to these provisions will be subject to ejection without refund and revocation of tickets and may also be in violation of the law resulting in possible arrest and prosecution.",
-            "childRule": "Children 2 years or older must have a ticket for most events at the Spectrum Center. This age restriction can fluctuate from event to event."
-        },
-        "upcomingEvents": {
-            "tmr": 1,
-            "ticketmaster": 79,
-            "_total": 80,
-            "_filtered": 0
-        },
-        "ada": {
-            "adaPhones": "704-688-8600",
-            "adaCustomCopy": "Wheelchair + Companion Seating: Located in all levels of the Arena based on event setup for particular event. \n\nMobility Impaired Patrons + Companion Seating :Located in all levels of the Arena based on event setup for particular event.\n\nSight/Hearing Patrons + Companions will be accommodated directly through the Arena Box Office.",
-            "adaHours": "Event Day: The Ticket Office opening hours will vary based on show time and event. Please call 704.688.9000 for more information."
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpZA6AEIA?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Allegiant Stadium",
-        "type": "venue",
-        "id": "KovZ917Ax7n",
-        "test": false,
-        "url": "https://www.ticketmaster.com/allegiant-stadium-tickets-las-vegas/venue/189482",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/23729v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89118",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "3333 Al Davis Way"
-        },
-        "location": {
-            "longitude": "-115.18330000",
-            "latitude": "36.09090000"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "Allegiant Stadium Box Office: 725-780-2100 Visit www.allegiantstadium.com for complete venue information.",
-            "openHoursDetail": "Standard Hours: Monday - Friday, 11:00AM - 5:00PM Event & Game Day Hours: 4 hours prior to event time/kick-off **Available for guest assistance only - Tickets are NOT sold at the box office**",
-            "acceptedPaymentDetail": "Tickets are NOT sold at the Box Office windows. Verified tickets are available exclusively at www.ticketmaster.com",
-            "willCallDetail": "Will Call tickets may be picked up at the Ticketmaster Box Office at Allegiant Stadium beginning 4 hours prior to event time/kick-off. Government issued photo identification is required to claim will call tickets. Will call drop-off tickets are not permitted. Tickets are NOT sold at the Box Office windows. Verified tickets are available exclusively at www.ticketmaster.com"
-        },
-        "parkingDetail": "Parking Passes: -Raiders season parking passes are good for Raiders games only. Parking passes can only be accessed digitally via the Raiders official app. -Single game and event parking passes are available for select lots and can be purchased via the SpotHero app. -Purchasing parking upon arrival is based on availability. We strongly encourage you to purchase your parking pass in advance of the event. Accessible Parking: -All accessible parking spaces require a valid ADA placard or a valid ADA license plate. -If accessible parking is full, ADA placards or plate holders will be offered the next available parking space in the reserved parking lots. -ADA placards or plates alone do not grant access to the Allegiant Stadium lots. Oversized Vehicles: -Oversized vehicles, designated as vehicles longer than 20 feet, and trailers are not permitted. -RVs and oversized vehicles should contact the Oasis RV Park for park and ride options.",
-        "accessibleSeatingDetail": "Accessible seating is located throughout Allegiant Stadium and is available on ticketmaster.com. Please look for seats designated with an accessible icon to purchase. For additional accessible needs or questions, please email boxoffice@allegiantstadium.com or call the box office at 725-780-2100.",
-        "generalInfo": {
-            "generalRule": "CLEAR BAG POLICY: - Bags must be clear plastic, vinyl or PVC and must not exceed 12 x 6 x 12 - Small clutch bags, 4.5x 6.5 x 2 can be taken into the stadium with one of the approved clear bags * An exception will be made for any necessary medical items after proper inspection at entry. CASHLESS VENUE: Allegiant Stadium is a cashless venue. Cash will not be accepted as a form of payment at any parking, retail, or concession locations. Guests may convert their cash to a debit card by using one of the Cash-to-Card kiosks located throughout the stadium. Any remaining balance on the debit card can be used at locations where debit payments are accepted. PROHIBITED ITEMS: Prohibited items include, but are not limited to, purses larger than a clutch bag, coolers, briefcases, backpacks, fanny packs, cinch bags, seat cushions, luggage of any kind, computer bags, and camera bags or any bag larger than the permissible size. ADDITIONAL VENUE INFO: For complete venue information, policies, and prohibited items, please visit: www.allegiantstadium.com/plan-your-visit",
-            "childRule": "Children under 24 months do not need a ticket to enter Allegiant Stadium, provided that they are seated on a parents or guardians lap, and do not interfere with the sightlines of others. Children must have a ticket to receive a promotional item. This policy is subject to change on an event by event basis. Any variance will be noted on the event purchase page, More Info tab, on ticketmaster.com."
-        },
-        "upcomingEvents": {
-            "tmr": 3,
-            "ticketmaster": 63,
-            "_total": 66,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917Ax7n?locale=en-us"
             }
         }
     },
@@ -870,1194 +1928,13 @@
             "childRule": "Children 24 months and older require a ticket for admission. Children under 24 months may enter without a ticket, but must sit on the lap of a parent or guardian. Rules for children may vary for other events, please check the individual event for more information."
         },
         "upcomingEvents": {
-            "ticketmaster": 93,
-            "_total": 93,
+            "ticketmaster": 82,
+            "_total": 82,
             "_filtered": 0
         },
         "_links": {
             "self": {
                 "href": "/discovery/v2/venues/KovZpZA6keIA?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX",
-        "type": "venue",
-        "id": "KovZ917AIHV",
-        "test": false,
-        "url": "https://www.ticketmaster.com/formula-1-heineken-las-vegas-grand-tickets-las-vegas/venue/189522",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26154v.png",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89169",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "location": {
-            "longitude": "-115.16545100",
-            "latitude": "36.11410400"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 2,
-            "_total": 2,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AIHV?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Reliant Stadium",
-        "type": "venue",
-        "id": "KovZpZAEdFeA",
-        "test": false,
-        "url": "https://www.ticketmaster.com/reliant-stadium-tickets-houston/venue/475596",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26654v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "77054",
-        "timezone": "America/Chicago",
-        "city": {
-            "name": "Houston"
-        },
-        "state": {
-            "name": "Texas",
-            "stateCode": "TX"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "One NRG Park"
-        },
-        "location": {
-            "longitude": "-95.410875",
-            "latitude": "29.684885"
-        },
-        "markets": [
-            {
-                "name": "Houston and More",
-                "id": "22"
-            },
-            {
-                "name": "All of US",
-                "id": "51"
-            },
-            {
-                "name": "Beaumont",
-                "id": "123"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 200
-            },
-            {
-                "id": 227
-            },
-            {
-                "id": 300
-            },
-            {
-                "id": 408
-            }
-        ],
-        "social": {
-            "twitter": {
-                "handle": "@reliantparkfan"
-            }
-        },
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "For Reliant Stadium information 832-667-1400. For more information, visit the Reliant Park website (reliantpark.com/a-z-guide).",
-            "openHoursDetail": "The Reliant Stadium South Ticket Windows inside Bud Light Plaza are open Wednesday-Friday 10am-5pm. Please note, on weekday event days after 5pm, only tickets for the specific event playing Reliant Stadium that evening will be sold at these ticket windows. This also applies for weekend event days after 2pm as well as all day on Sundays",
-            "acceptedPaymentDetail": "The Reliant Stadium south ticket windows accept Visa, Mastercard, American Express, Discover, Apple Pay, and Google Pay. Cash and checks are not accepted.",
-            "willCallDetail": "Will call is not available. Tickets are delivered digitally. If you believe you have tickets at will call, please reach out to the box office ahead of time for verification."
-        },
-        "parkingDetail": "Parking rates differ for each event. Rates are subject to change without notice. No in and out access. Electronic or credit/debit card payment is required at parking gates.",
-        "generalInfo": {
-            "generalRule": "No outside items including food or beverages may be brought in. No video cameras or equipment. No smoking allowed inside. Most events may follow a clear bag policy.",
-            "childRule": "Children 2 and older require a ticket, however, this can vary per event. Please check the specific event listing on the Relian Park website (reliantpark.com) for additional info."
-        },
-        "upcomingEvents": {
-            "ticketmaster": 18,
-            "_total": 18,
-            "_filtered": 0
-        },
-        "ada": {
-            "adaPhones": "For Reliant Stadium information 832-667-1400\n",
-            "adaCustomCopy": "For Reliant Stadium Events:\nFor questions or concerns related to accessible tickets, please reach out to ADA & Accessibility Administrator at adaaccommodations@nrgpark.com or 832.667.1810.\n \nFor Houston Texans and Lone Star Sports and Entertainment Events:\nIf you have any questions, please call the Houston Texans Ticketing Department (contact person: Kayala @ 832.667.2150)\n",
-            "adaHours": "Monday-Friday 10am-5pm\nSaturday 10am-2pm. Hours subject to change\n"
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpZAEdFeA?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Koval Zone by Heineken",
-        "type": "venue",
-        "id": "KovZ917AY9y",
-        "test": false,
-        "url": "https://www.ticketmaster.com/koval-zone-by-heineken-tickets-las-vegas/venue/189567",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26174v.png",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89109",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "4165 Koval Lane"
-        },
-        "location": {
-            "longitude": "-115.16498300",
-            "latitude": "36.11297300"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 7,
-            "_total": 7,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AY9y?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Club Paris Hospitality",
-        "type": "venue",
-        "id": "KovZ917AYb7",
-        "test": false,
-        "url": "https://www.ticketmaster.com/club-paris-hospitality-tickets-las-vegas/venue/189570",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26159v.png",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89109",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "3655 S. Las Vegas Blvd"
-        },
-        "location": {
-            "longitude": "-115.17035400",
-            "latitude": "36.11247500"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 4,
-            "_total": 4,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AYb7?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "West Harmon Zone",
-        "type": "venue",
-        "id": "KovZ917AY9T",
-        "test": false,
-        "url": "https://www.ticketmaster.com/west-harmon-zone-tickets-las-vegas/venue/189569",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26149v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89109",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "202 Audrie Street"
-        },
-        "location": {
-            "longitude": "-115.16758200",
-            "latitude": "36.10786500"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 4,
-            "_total": 4,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AY9T?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "T-Mobile Zone at Sphere",
-        "type": "venue",
-        "id": "KovZ917AY9V",
-        "test": false,
-        "url": "https://www.ticketmaster.com/tmobile-zone-at-sphere-tickets-las-vegas/venue/189566",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/26169v.png",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89119",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "240 Sands Avenue"
-        },
-        "location": {
-            "longitude": "-115.16148900",
-            "latitude": "36.12255500"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 10,
-            "_total": 10,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AY9V?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "State Farm Arena",
-        "type": "venue",
-        "id": "KovZpa2Xke",
-        "test": false,
-        "url": "https://www.ticketmaster.com/state-farm-arena-tickets-atlanta/venue/114689",
-        "locale": "en-us",
-        "aliases": [
-            "phillips areana",
-            "philips arena",
-            "phillips arena"
-        ],
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/22348v.jpg",
-                "width": 450,
-                "height": 255,
-                "fallback": false
-            }
-        ],
-        "postalCode": "30303",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "Atlanta"
-        },
-        "state": {
-            "name": "Georgia",
-            "stateCode": "GA"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "One State Farm Drive"
-        },
-        "location": {
-            "longitude": "-84.39456900",
-            "latitude": "33.75779600"
-        },
-        "markets": [
-            {
-                "name": "Atlanta",
-                "id": "10"
-            },
-            {
-                "name": "All of US",
-                "id": "51"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 200
-            },
-            {
-                "id": 220
-            },
-            {
-                "id": 221
-            },
-            {
-                "id": 258
-            },
-            {
-                "id": 327
-            },
-            {
-                "id": 384
-            }
-        ],
-        "social": {
-            "twitter": {
-                "handle": "@statefarmarena"
-            }
-        },
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "404-878-3000 - State Farm Arena Box Office 1-866-715-1500 - Atlanta Hawks",
-            "openHoursDetail": "The Box Office is open on event days and for the first day of all on-sales. (Hours will vary based upon the events and time of on-sales).",
-            "acceptedPaymentDetail": "Accepts: cash, Visa, Mastercard, Discover, American Express",
-            "willCallDetail": "Located at main box office on Centennial Olympic Park Drive. Available for pickup beginning 1 1/2 hours prior to event. Closing time will vary by event. PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
-        },
-        "parkingDetail": "State Farm Arena offers multiple parking options tailored to your needs. Reserve your spot now and save! STATE FARM DRIVE: The best parking, just steps from the arena. Located at 1 State Farm Dr, Atlanta, GA 30303. Less than a 1-minute walk. DIAMOND DECK: VIP parking with exclusive Player/Artist entrance. Located at 100 Lower Andrew Young International Dr, Atlanta, GA 30303. Less than a 1-minute walk. SAPPHIRE DECK: Prime location across the street from the arena. Located at 127 Centennial Olympic Park Dr. NW, Atlanta, GA 30303. Less than a 5-minute walk to arena. RUBY LOT: Easy & convenient arena access. Located below street level. Enter at 199 Alabama St. SW, Atlanta, GA 30303. Less than a 5-minute walk to arena. All lots and decks are covered, except for State Farm Drive parking, which is uncovered. All lots and decks offer ADA parking. Prices vary by event.",
-        "accessibleSeatingDetail": "Accessible seating is available in throughout the arena in various price categories. Seating for the sight/hearing impaired available in the lower level. All accessible seating is subject to availability. All levels of the Arena are accessible by elevator and escalator.",
-        "generalInfo": {
-            "generalRule": "No smoking inside arena. No glass bottles, aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No Backpacks.",
-            "childRule": "For most events, everyone two and older must have a ticket. For Sesame Street Live, children one and older must have a ticket. Please see the ticket information for each event."
-        },
-        "upcomingEvents": {
-            "ticketmaster": 92,
-            "_total": 92,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpa2Xke?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Empower Field At Mile High",
-        "type": "venue",
-        "id": "KovZpa3Wne",
-        "test": false,
-        "url": "https://www.ticketmaster.com/empower-field-at-mile-high-tickets-denver/venue/246376",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/21318v.jpg",
-                "width": 205,
-                "height": 115,
-                "fallback": false
-            }
-        ],
-        "postalCode": "80204",
-        "timezone": "America/Denver",
-        "city": {
-            "name": "Denver"
-        },
-        "state": {
-            "name": "Colorado",
-            "stateCode": "CO"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "1701 Bryant St."
-        },
-        "location": {
-            "longitude": "-105.020127",
-            "latitude": "39.743853"
-        },
-        "markets": [
-            {
-                "name": "Denver and More",
-                "id": "6"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 248
-            },
-            {
-                "id": 254
-            },
-            {
-                "id": 264
-            },
-            {
-                "id": 285
-            },
-            {
-                "id": 347
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "(720) 258-3333",
-            "openHoursDetail": "Standard Business Hours (Mountain Time): Monday - Friday: 9:00 AM - 5:00 PM. Special Hours (Mountain Time): Saturday (before a Sunday home game): 9:00 AM - 1:00 PM. Game Day: 9:00 AM - End of Halftime.",
-            "acceptedPaymentDetail": "We accept Visa, MasterCard, Discover, American Express, and Debit Cards.",
-            "willCallDetail": "Will Call is located between Gates 9 and 10 on the South End of the stadium. A valid photo ID is required for all events. Tickets will only be released to the individual whose name is on the envelope. Important Note: Broncos Half-Price Tickets are only available via mobile delivery and are not eligible for Will Call pickup."
-        },
-        "parkingDetail": "For general parking information at Empower Field at Mile High, please visit: https://www.empowerfieldatmilehigh.com/directions-and-parking. For Denver Broncos game day parking details, please visit: https://www.denverbroncos.com/stadium/parking/.",
-        "accessibleSeatingDetail": "Yes, accessible (ADA) tickets are available for purchase through Ticketmaster.com or in person at the Denver Broncos Box Office, located on the South End of Empower Field at Mile High between Gates 9 and 10. There is a limit of four (4) ADA seats per customer. For additional assistance or inquiries, please visit: empowerfieldatmilehigh.com/plan-your-visit/ada-guide or call our ADA support line at 720-258-3337.",
-        "generalInfo": {
-            "generalRule": "Empower Field at Mile High enforces the NFL Clear Bag Policy. To see what you can and cannot bring into the stadium, please visit: https://www.empowerfieldatmilehigh.com/clear-bag-policy-1. The Fan Code of Conduct is in place to ensure a safe, inclusive, and respectful environment for all guests. Learn more here: https://www.empowerfieldatmilehigh.com/plan-your-visit/fan-code-of-conduct. Empower Field at Mile High is a mobile ticketing venue. For information on how to access and manage your tickets, visit: https://www.empowerfieldatmilehigh.com/plan-your-visit/mobile-tickets.",
-            "childRule": "Yes, children are welcome at events at Empower Field at Mile High. Guests age 2 and older are required to have a ticket for entry. Infants under 2 years old may enter without a ticket but must sit on the lap of a ticketed adult and may not obstruct the view of other guests."
-        },
-        "upcomingEvents": {
-            "ticketmaster": 22,
-            "_total": 22,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpa3Wne?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Kaseya Center",
-        "type": "venue",
-        "id": "KovZpZAJtFaA",
-        "test": false,
-        "url": "https://www.ticketmaster.com/kaseya-center-tickets-miami/venue/106601",
-        "locale": "en-us",
-        "aliases": [
-            "americanairlines arena",
-            "american airlines arena"
-        ],
-        "postalCode": "33132",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "Miami"
-        },
-        "state": {
-            "name": "Florida",
-            "stateCode": "FL"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "601 Biscayne Blvd"
-        },
-        "location": {
-            "longitude": "-80.18780500",
-            "latitude": "25.78123200"
-        },
-        "markets": [
-            {
-                "name": "Miami",
-                "id": "15"
-            },
-            {
-                "name": "All of US",
-                "id": "51"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 200
-            },
-            {
-                "id": 334
-            },
-            {
-                "id": 412
-            }
-        ],
-        "social": {
-            "twitter": {
-                "handle": "@AAarena"
-            }
-        },
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "Miami HEAT & Arena Event Sales Information: \u2022 Miami HEAT Season Tickets & Partial Plans (786) 777 HOOP \u2022 Miami HEAT Group Tickets (786) 777 DUNK \u2022 Miami HEAT Premium Seats (Courtside/Flagship/Suites/Loges) (786) 777 4320 \u2022 Arena Event Suite Sales (786) 777 1000 \u2022 Group Ticket & Fundraising Opportunities for Arena Family Shows (786) 777 4FUN (4386)",
-            "openHoursDetail": "Kaseya Center will only be open on event days. Arena Box Office Information (786) 777-1250",
-            "acceptedPaymentDetail": "Visa, MasterCard, Discover, American Express",
-            "willCallDetail": "Will Call is located at the Ticketmaster Box Office on the North Side of the Arena located between Gates 3 & 4. Valid ID required to pick up Will Call Tickets"
-        },
-        "parkingDetail": "Suggested Parking Information: http://d2yex7fc50u2fe.cloudfront.net/pdfs/ Event_parking_options.pdf",
-        "accessibleSeatingDetail": "This is an accessible venue.",
-        "generalInfo": {
-            "generalRule": "For all you need to know from A-Z, please log on to: www.kaseyacenter.com"
-        },
-        "upcomingEvents": {
-            "ticketmaster": 65,
-            "_total": 65,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpZAJtFaA?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Barclays Center",
-        "type": "venue",
-        "id": "KovZ917AtP3",
-        "test": false,
-        "url": "https://www.ticketmaster.com/barclays-center-tickets-brooklyn/venue/393376",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/22822v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "11217",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "Brooklyn"
-        },
-        "state": {
-            "name": "New York",
-            "stateCode": "NY"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "620 Atlantic Ave"
-        },
-        "location": {
-            "longitude": "-73.97519000",
-            "latitude": "40.68285000"
-        },
-        "markets": [
-            {
-                "name": "New York/Tri-State Area",
-                "id": "35"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 345
-            }
-        ],
-        "boxOfficeInfo": {
-            "openHoursDetail": "M-F 12-6pm; Sat 12-4pm; Sun Closed (Hours may differ due to events)",
-            "acceptedPaymentDetail": "American Express, Visa, Mastercard & Discover",
-            "willCallDetail": "No public Will Call"
-        },
-        "parkingDetail": "Parking at Barclays Center is very limited. For more information on parking garages in the area, please go to: https://www.barclayscenter.com/getting-here/parking",
-        "accessibleSeatingDetail": "Subject to availability, tickets for accessible seating may be purchased online for each event through Ticketmaster. Please refer all questions to the Barclays Center Disabled Services A to Z Guide: https://www.barclayscenter.com/center-info/disabled-a-to-z-guide ENTRY: All entrances at Barclays Center are ADA accessible. Re-entry is not permitted. All guests wishing to enter Barclays Center are subject to the established venue/NBA screening guidelines. INTERPRETING SERVICES: Patrons requiring sign language interpretation services for any events at Barclays Center should contact our Guest Services Department at least one week in advance of the event, by emailing guestservices@barclayscenter.com. MOBILITY DEVICE STORAGE & MEDICAL BAGS: Storage is available at Guest Services located at Section 112 on the Main Concourse and Section 212 on the Upper Concourse. SERVICE ANIMALS: Service animals are welcome at Barclays Center. In keeping with ADA regulations. Please contact our Guest Services Department if any accommodations are required, by emailing guestservices@barclayscenter.com.",
-        "generalInfo": {
-            "generalRule": "For a comprehensive guide on all information and policies/rules for attending any Barclays Center event, please go to: https://www.barclayscenter.com/center-info/a-z-guide",
-            "childRule": "For all sporting events and most concerts, children under 2 years old may enter Barclays Center free of charge but must sit on the lap of an accompanying ticketed adult. Any child that has reached their 2nd birthday will require a ticket to enter the arena and must occupy their ticketed seat only. Please note that some shows (especially those intended for children) will have a different policy and may require all children to have a ticket."
-        },
-        "upcomingEvents": {
-            "tmr": 1,
-            "ticketmaster": 222,
-            "_total": 223,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AtP3?locale=en-us"
-            }
-        }
-    },
-    {
-        "fault": {
-            "faultstring": "Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}",
-            "detail": {
-                "errorcode": "policies.ratelimit.SpikeArrestViolation"
-            }
-        }
-    },
-    {
-        "name": "MetLife Stadium",
-        "type": "venue",
-        "id": "KovZpakS7e",
-        "test": false,
-        "url": "https://www.ticketmaster.com/metlife-stadium-tickets-east-rutherford/venue/1233",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/22874v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "07073",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "East Rutherford"
-        },
-        "state": {
-            "name": "New Jersey",
-            "stateCode": "NJ"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "One MetLife Stadium Drive"
-        },
-        "location": {
-            "longitude": "-74.074493",
-            "latitude": "40.81359"
-        },
-        "markets": [
-            {
-                "name": "New York/Tri-State Area",
-                "id": "35"
-            },
-            {
-                "name": "Northern New Jersey",
-                "id": "55"
-            },
-            {
-                "name": "Connecticut",
-                "id": "124"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 296
-            },
-            {
-                "id": 345
-            },
-            {
-                "id": 422
-            }
-        ],
-        "social": {
-            "twitter": {
-                "handle": "@MetLifeStadium"
-            }
-        },
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "Box Office: 201.559.1300, tickets@metlifestadium.com - General Ticket Inquiries - ADA Ticket Inquiries Guest Services: 201.559.1515, info@metlifestadium.com",
-            "openHoursDetail": "MetLife Stadium Box Office is open Monday through Friday 11am through 5pm. The Box Office is located in the West VIP lobby. Please park in Lot G, enter through MetLife Gate and into the large glass doors labeled West VIP.",
-            "acceptedPaymentDetail": "The MetLife Stadium Box Office will accept cash, Visa, Mastercard, Discover, and American Express. Personal checks will not be accepted.",
-            "willCallDetail": "Ticketmaster Will Call may be picked up at any open ticket window. For all events, non-Ticketmaster will call orders may be picked up at the designated will call window. Will call tickets will be available beginning at least 2 hours prior to the scheduled start time for the event."
-        },
-        "parkingDetail": "General Parking Information: * MetLife Stadium Parking Availability: There are approximately 23,000 parking spaces available that are distributed among 14 lots. * There is no street parking available near the stadium. * Parking fees will vary by event. * Accessible parking is available in Lots E, F, & G. Accessible parking is available on a first come / first serve basis. You must have parking pass and state- issued person with disabilities placard or license plate to park in an accessible parking space. Violators will be subject to citation and possible revocation of season or event parking privileges. *Taxi / Black Car, Limousine, and Guest drop offs will be permitted in Lot C. * Bus and R/V Parking is available in Lot L. * All vehicles parking within the stadiums secured parking perimeter are subject to security inspection before being permitted to park. * Hours of Operation will vary per event. For NFL games, parking lots will open 5 hours prior to kickoff. All other events are subject to vary. * Parking passes are valid only for the event or game noted on the pass and for the specific lot. *Please note, all parking information may be amended based on the nature of the event, please contact the stadium at 201-559-1515 or info@metlifestadium.com with any specific questions not addressed above.",
-        "accessibleSeatingDetail": "MetLife Stadium is fully accessible including all concession stand locations, merchandise stands, ATM's and seating areas. Accessible seating for guests with special needs is available on all levels and in all price ranges. Elevators are located in the southeast (HCL Tech), southwest (Verizon), and northwest (Pepsi) corners of the stadium. Ramps are located at the north and south entrances. Seats with removable armrests are located throughout the stadium. A limited number of wheelchairs are located at each of the entrance gates to transport guests with limited mobility to their seating area. Guests may contact the MetLife Stadium at 201-559-1515 or ADAinfo@metlifestadium.com for more information or any additional needs for non-NFL events. MetLife Stadium ADA Ticket Questions call 201-559-1300. New York Giants ADA Ticket Purchases call 888-694-1925. New York Jets ADA Ticket Purchases call 973-549-4585. For wheelchair accessible and limited mobility patrons for non-NFL events, please click on the \"Request Accessible Tickets\" icon on the right side of the page to be taken to a dedicated page for accessible seating purchases. Please request the total number of wheelchair plus companion seats or limited mobility plus companion seats within the same wheelchair dropdown box so you may sit together.",
-        "generalInfo": {
-            "generalRule": "MetLife Stadium is committed to promoting a memorable event day experience for all fans. With that goal in mind, we have developed our Guest Code of Conduct to which we strongly encourage all guests to adhere. Keeping MetLife Stadium and Plaza SMOKE-FREE",
-            "childRule": "For non-NFL events, children under 34 inches height do not require a ticket of their own but must share a seat with an accompanying adult. All children taller than 34 inches require a ticket of their own. For New York Jets games this 34\" rule applies For New York Giants games all guest need a ticket regardless of age. Please contact the stadium directly regarding the suitability of an event for children."
-        },
-        "upcomingEvents": {
-            "ticketmaster": 25,
-            "_total": 25,
-            "_filtered": 0
-        },
-        "ada": {
-            "adaPhones": "For NFL New York Giants: 888-694-1925\n             \nFor NFL New York Jets: 800-469-JETS (5387)              \n            \nFor NON-NFL Events: 1-800-877-7575\n\n",
-            "adaCustomCopy": "For NFL New York Giants: 888-694-1925\n             \nFor NFL New York Jets: 800-469-JETS (5387)                \n\nFor NON-NFL Events: 1-800-877-7575",
-            "adaHours": "Monday - Friday, 9:00am - 5:00pm"
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpakS7e?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Golden 1 Center",
-        "type": "venue",
-        "id": "KovZpZAEF76A",
-        "test": false,
-        "url": "https://www.ticketmaster.com/golden-1-center-tickets-sacramento/venue/229976",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/23091v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "95814",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Sacramento"
-        },
-        "state": {
-            "name": "California",
-            "stateCode": "CA"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "500 David J Stern Walk"
-        },
-        "location": {
-            "longitude": "-121.50023100",
-            "latitude": "38.58037200"
-        },
-        "markets": [
-            {
-                "name": "N. California/N. Nevada",
-                "id": "41"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 250
-            },
-            {
-                "id": 273
-            },
-            {
-                "id": 282
-            },
-            {
-                "id": 341
-            },
-            {
-                "id": 368
-            },
-            {
-                "id": 374
-            },
-            {
-                "id": 382
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "(916) 701-5401",
-            "openHoursDetail": "Tuesday thru Friday 10am to 5pm Saturday thru Monday Closed Event Day Hours 12pm to Event Time",
-            "acceptedPaymentDetail": "The Box Office is now cashless. ONLY accept Mastercard, Visa, American Express, Discover, Apple Pay and Samsung Pay",
-            "willCallDetail": "Will Call tickets may be picked-up at the Golden 1 Center box office if a valid government issued photo I.D. that matches the name on the order, the credit card used to make the purchase, and the confirmation number given at the time of purchase are provided. VIP PACKAGES are subject to the package providers rules for pick up. Once the Will Call window closes, unclaimed tickets will be available through the end of the show at the Guest Services Booth at Section 109, please enter at the Media entrance near the box office. For the box office to release tickets not in your name you need to submit a written letter of authorization along with a copy of the driver\u2019s license of the party whose name is on the account. Tickets are not accepted for Will Call from patrons wishing to leave tickets for others."
-        },
-        "parkingDetail": "Parking available in downtown parking lots and surface street parking. Please visit https://reserve.sacpark.org/ for additional information.",
-        "accessibleSeatingDetail": "Accessible seating is available online through Ticketmaster.com, by calling Ticketmaster phone agents or coming to the Golden 1 Center Box Office. Interpreters are available by request and are dependent upon availability. Please e-mail ADAservices@kings.com for assistance with any ADA related questions. Interpreters need to be reserved a minimum of 10 days in advance of the show. Service dogs are allowed at the Golden 1 Center.",
-        "generalInfo": {
-            "generalRule": "No Food or Beverages (including waters) No Video Cameras. Nonprofessional cameras are allowed for some events, but guests should call Golden 1 Center to verify. Golden 1 Center and DOCO are smoke free areas.",
-            "childRule": "Children two (2) years and older MUST have a ticket. Please check specific shows for age restrictions."
-        },
-        "upcomingEvents": {
-            "tmr": 1,
-            "ticketmaster": 90,
-            "_total": 91,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpZAEF76A?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Bank of America Stadium",
-        "type": "venue",
-        "id": "KovZpa3hje",
-        "test": false,
-        "url": "https://www.ticketmaster.com/bank-of-america-stadium-tickets-charlotte/venue/368876",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/22383v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "28202",
-        "timezone": "America/New_York",
-        "city": {
-            "name": "Charlotte"
-        },
-        "state": {
-            "name": "North Carolina",
-            "stateCode": "NC"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "800 South Mint Street"
-        },
-        "location": {
-            "longitude": "-80.852829",
-            "latitude": "35.225789"
-        },
-        "markets": [
-            {
-                "name": "Charlotte",
-                "id": "2"
-            },
-            {
-                "name": "South Carolina",
-                "id": "121"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 243
-            },
-            {
-                "id": 245
-            },
-            {
-                "id": 256
-            },
-            {
-                "id": 291
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "Carolina Panthers box office - (704) 358-7800",
-            "openHoursDetail": "Box office is located at the Southeast corner between the South and BCBS NC East Gates and due to construction is temporarily only open on event days. For FC match days, the Ticket Office will open 4 hours prior to kickoff time. For concerts and other live events, the Ticket Office will open at 2:00pm on show day.",
-            "acceptedPaymentDetail": "Advance sales - Cash, Visa, MCGame days - Cash only",
-            "willCallDetail": "Open 4 hours prior to game time. Located at box office-southeast corner PLEASE BRING A PICTURE ID, THE ACTUAL CREDIT CARD USED TO PURCHASE THE TICKETS, AND YOUR ORDER NUMBER."
-        },
-        "parkingDetail": "Public and private parking available throughout the uptown Charlotte area. Rates vary according to proximity to the stadium. For additional information https://www.bankofamericastadium.com/stadium/parking.html",
-        "accessibleSeatingDetail": "This venue is accessible.",
-        "generalInfo": {
-            "generalRule": "-NO Weapons (weapons with permits are not allowed) -NO Illegal Drugs -NO Alcoholic Beverages -NO Food or Beverages -NO Fireworks or Explosives -NO Pets - except service animals assisting those with disabilities -NO Folding chairs -NO Noise makers, horns, helium balloons and beach balls -NO Laser pointers -NO Coolers -NO Umbrellas -NO Videocameras -NO Backpacks -NO Baby Strollers -NO Dufflebags",
-            "childRule": "Chilren age one year (12 months) and up must have a ticket"
-        },
-        "upcomingEvents": {
-            "ticketmaster": 18,
-            "_total": 18,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZpa3hje?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Grand Prix Plaza Zone",
-        "type": "venue",
-        "id": "KovZ917AVhX",
-        "test": false,
-        "url": "https://www.ticketmaster.com/grand-prix-plaza-zone-tickets-las-vegas/venue/189587",
-        "locale": "en-us",
-        "postalCode": "89109",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "4400 Koval Lane"
-        },
-        "location": {
-            "longitude": "-115.16162000",
-            "latitude": "36.11006500"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 7,
-            "_total": 7,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917AVhX?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Sphere",
-        "type": "venue",
-        "id": "KovZ917Atbr",
-        "test": false,
-        "url": "https://www.ticketmaster.com/sphere-tickets-las-vegas/venue/189524",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/22784v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "89169",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "Las Vegas"
-        },
-        "state": {
-            "name": "Nevada",
-            "stateCode": "NV"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "255 Sands Avenue"
-        },
-        "location": {
-            "longitude": "-115.16428960",
-            "latitude": "36.12072670"
-        },
-        "markets": [
-            {
-                "name": "Las Vegas",
-                "id": "14"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 319
-            }
-        ],
-        "upcomingEvents": {
-            "ticketmaster": 610,
-            "_total": 610,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917Atbr?locale=en-us"
-            }
-        }
-    },
-    {
-        "name": "Chase Center",
-        "type": "venue",
-        "id": "KovZ917Ah1H",
-        "test": false,
-        "url": "https://www.ticketmaster.com/chase-center-tickets-san-francisco/venue/230012",
-        "locale": "en-us",
-        "images": [
-            {
-                "ratio": "16_9",
-                "url": "https://s1.ticketm.net/dbimages/23055v.jpg",
-                "width": 640,
-                "height": 360,
-                "fallback": false
-            }
-        ],
-        "postalCode": "94158",
-        "timezone": "America/Los_Angeles",
-        "city": {
-            "name": "San Francisco"
-        },
-        "state": {
-            "name": "California",
-            "stateCode": "CA"
-        },
-        "country": {
-            "name": "United States Of America",
-            "countryCode": "US"
-        },
-        "address": {
-            "line1": "300 16th Street"
-        },
-        "location": {
-            "longitude": "-122.387464",
-            "latitude": "37.76797"
-        },
-        "markets": [
-            {
-                "name": "N. California/N. Nevada",
-                "id": "41"
-            }
-        ],
-        "dmas": [
-            {
-                "id": 250
-            },
-            {
-                "id": 273
-            },
-            {
-                "id": 282
-            },
-            {
-                "id": 341
-            },
-            {
-                "id": 368
-            },
-            {
-                "id": 374
-            },
-            {
-                "id": 382
-            }
-        ],
-        "boxOfficeInfo": {
-            "phoneNumberDetail": "For Golden State Warriors: Ticket Sales: 1-888-GSW-HOOP (option 1) Group Sales: 1-888-GSW-HOOP (option 2) Account Service: 1-888-GSW-HOOP (option 3) Grandview Suites 1-888-GSW-HOOP (option 4) Administration: (510) 986-2200",
-            "openHoursDetail": "Monday-Friday: 10AM - 4PM // Weekends: Only on event days pending door times.",
-            "acceptedPaymentDetail": "You can use our proud partner\u2019s Chase Cards for payment at the Box Office. We also accept, Cash, MasterCard, Visa, American Express, Discover",
-            "willCallDetail": "Will Call tickets may be picked-up at the Chase Center box office with a valid government issued photo I.D. that matches the name on the order, the credit card used to make the purchase, and the confirmation number given at the time of purchase are provided. VIP PACKAGES are subject to the package providers rules for pick up. For the box office to release tickets not in your name you need to submit a written letter of authorization along with a copy of the driver\u2019s license of the party whose name is on the account."
-        },
-        "accessibleSeatingDetail": "Accessible seating is available online through Ticketmaster.com, by calling Ticketmaster phone agents or coming to the Chase Center Box Office. Interpreters are available by request and are dependent upon availability. Please call the Chase Center for further information. Interpreters need to be reserved a minimum of 10 days in advance of the show. Service dogs are allowed at the Chase Center.",
-        "generalInfo": {
-            "generalRule": "ARRIVE EARLY: Please arrive at least one-hour prior to event time. All patrons will go through a screening process upon entry. All bags larger than 14\u201d x 14\u201d x 6\u201d will need to be checked at our bag check location on Warriors Way. Additionally, metal detectors will be utilized for all events. Bags that adhere to policy, must fit comfortably under your seat. Please be mindful of traffic conditions, as San Francisco can be quite congested, especially during the holidays, parades, or special events. No glass bottles, aluminum cans, coolers, thermoses, outside food, or alcoholic beverages No banners or laser pointers. No smoking or electronic cigarettes permitted anywhere in the building. No reentry. No recording devices. No outside food or drink. Alcohol Management: For most events at Chase Center, alcoholic beverages are available for purchase. Chase Center staff is trained in the nationally recognized T.E.A.M. (Techniques for Effective Alcohol Management) training program for responsible alcohol management. All guests will be required to show ID to purchase alcohol. Guests are not permitted to bring in alcoholic beverages from outside and may not leave with alcohol purchased inside the venue. Management reserves the right to refuse the sale of alcohol to any guest. Please be aware that it is the policy of Chase Center to require all guests to present a valid form of ID with proof of age in order to purchase alcoholic beverages at Chase Center. Pursuant to applicable State law, Chase Center accepts only the following forms of identification: \u2022 A valid driver\u2019s license or non-driver identification card issued by the United States Government, a State Government, Commonwealth, Possession or Territory of the United States or a Provincial Government of Canada. \u2022 A valid passport \u2022 A valid U.S. military ID International guests wishing to consume alcohol inside the building must bring a valid passport as the only form of acceptable ID.",
-            "childRule": "For most events, all children who have reached their second birthday require a ticket to gain admittance to Chase Center. Any child who has yet to reach their second birthday does not require a ticket, however, they may not occupy their own seat. Please check specific shows for age restrictions. Please check the event profile for your specific event for more information prior to your purchase of tickets."
-        },
-        "upcomingEvents": {
-            "ticketmaster": 71,
-            "_total": 71,
-            "_filtered": 0
-        },
-        "_links": {
-            "self": {
-                "href": "/discovery/v2/venues/KovZ917Ah1H?locale=en-us"
             }
         }
     }

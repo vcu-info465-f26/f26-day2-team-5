@@ -81,14 +81,65 @@ In Codespaces, open the forwarded dashboard port when prompted.
 
 Choose a location to update the table and both charts.
 
-The dashboard also displays the saved overview in `data/summary.md`. It covers
-the full saved dataset regardless of the selected location, and includes the
-source event date range and generation date. The dashboard reads this file
-without calling the summary-generation API; if the file is unavailable, an
-informational message is shown instead.
+# Sprint 3: AI Summary and Chat
 
-To explicitly regenerate the saved overview, run `python src/summarize.py`
-with `GROQ_API_KEY` configured.
+## Event Overview
+
+The dashboard displays a short overview of the saved Ticketmaster event data.
+It includes the event count, venue count, event date range, and where events
+are concentrated. The overview covers all locations, even when a visitor
+filters the table and charts to one city.
+
+The summary script builds the database from the saved JSON snapshots and
+calculates statistics in SQLite. It uses Groq to help write the overview and
+saves the result and its generation date in `data/summary.md`. Streamlit reads
+that file when displaying the overview.
+
+To regenerate the summary from the repository root, configure `GROQ_API_KEY`
+in Codespaces and run:
+
+```bash
+python src/summarize.py
+```
+
+## Dashboard Chat
+
+Use **Ask about these events** to ask questions about the events currently
+shown in the dashboard. For example, select a city and ask, “Which venue has
+the most events?”
+
+The chatbot sends Groq a compact summary of the currently filtered data and
+includes recent messages so visitors can ask follow-up questions. It can
+answer questions about event counts, venues, locations, and dates. Ticket
+prices and attendance are outside the saved dataset, and detailed questions
+about individual events may be limited by the rows included in the chat
+context. If the model call fails, the app displays an unavailable message.
+
+The summary and chat share the `openai/gpt-oss-120b` model configured in
+`src/ai_config.py`.
+
+## Daily Data and Summary Refresh
+
+The **Daily data and summary refresh** workflow is scheduled for 12:00 UTC
+every day and can also be started manually from GitHub Actions. It fetches
+updated Ticketmaster event and venue snapshots, runs the summary script, and
+pushes changed data files to `main`.
+
+If summary generation fails, the workflow keeps the previous `data/summary.md`
+and still attempts to push any updated snapshots. The dashboard can therefore
+show newer event data alongside an older overview. Check the overview’s
+generation date to see when it was last written.
+
+## Required Secrets
+
+| Environment | Secret names | Used for |
+| --- | --- | --- |
+| GitHub Codespaces | `GROQ_API_KEY` | Regenerating the summary and testing chat locally |
+| Streamlit Community Cloud | `GROQ_API_KEY` | Chat on the public dashboard |
+| GitHub Actions | `TICKETMASTER_API_KEY`, `GROQ_API_KEY` | Fetching snapshots and generating the scheduled summary |
+
+The saved overview can be displayed without a Groq key. Store API keys in the
+appropriate secrets settings and keep their values out of the repository.
 
 ## Public Dashboard
 
