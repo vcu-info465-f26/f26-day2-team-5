@@ -81,6 +81,15 @@ In Codespaces, open the forwarded dashboard port when prompted.
 
 Choose a location to update the table and both charts.
 
+The dashboard also displays the saved overview in `data/summary.md`. It covers
+the full saved dataset regardless of the selected location, and includes the
+source event date range and generation date. The dashboard reads this file
+without calling the summary-generation API; if the file is unavailable, an
+informational message is shown instead.
+
+To explicitly regenerate the saved overview, run `python src/summarize.py`
+with `GROQ_API_KEY` configured.
+
 ## Public Dashboard
 
 Public URL: https://f26team5.streamlit.app

@@ -5,6 +5,7 @@ Build the saved event database and create a short Groq summary.
 import os
 import sqlite3
 import tempfile
+from datetime import date
 
 from openai import OpenAI
 
@@ -170,7 +171,8 @@ def main():
     content = (
         "# Saved Ticketmaster Event Summary\n\n"
         f"{summary.strip()}\n\n"
-        f"**Event date range:** {first_date} to {last_date}\n"
+        f"**Source event date range:** {first_date} to {last_date}\n"
+        f"**Generated:** {date.today().isoformat()}\n"
     )
 
     save_summary(content)
