@@ -86,6 +86,7 @@ def load_events():
     return events
 
 
+display_saved_summary()
 st.title("Ticketmaster Event Dashboard")
 
 events = load_events()
@@ -132,7 +133,6 @@ else:
         hide_index=True
     )
 
-    display_saved_summary()
 
     display_venue_chart(events)
     
