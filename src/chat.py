@@ -98,15 +98,26 @@ def display_chat(events, location):
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
 
+    # Issue #77: show which location the chat is using
+    if not location or str(location).lower().startswith("all"):
+        location_label = "All locations"
+    else:
+        location_label = str(location)
+
     for message in st.session_state.chat_history:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
+            if message["role"] == "assistant" and "location" in message:
+                st.caption(f"Location: {message['location']}")
 
+    st.caption(f"Answering questions about: {location_label}")
     question = st.chat_input("Ask a question about the selected events")
     if not question:
         return
 
-    st.session_state.chat_history.append({"role": "user", "content": question})
+    st.session_state.chat_history.append(
+        {"role": "user", "content": question, "location": location_label}
+    )
     with st.chat_message("user"):
         st.markdown(question)
 
@@ -114,7 +125,11 @@ def display_chat(events, location):
         "role": "system",
         "content": SYSTEM_PROMPT + "\n\n" + build_context(events, location),
     }
-    recent = st.session_state.chat_history[-MAX_HISTORY:]
+    # Groq only accepts role and content, so leave out the location label
+    recent = [
+        {"role": m["role"], "content": m["content"]}
+        for m in st.session_state.chat_history[-MAX_HISTORY:]
+    ]
 
     with st.spinner("Thinking..."):
         answer = ask_groq([system] + recent)
@@ -122,6 +137,9 @@ def display_chat(events, location):
     if answer is None:
         answer = UNAVAILABLE
 
-    st.session_state.chat_history.append({"role": "assistant", "content": answer})
+    st.session_state.chat_history.append(
+        {"role": "assistant", "content": answer, "location": location_label}
+    )
     with st.chat_message("assistant"):
         st.markdown(answer)
+        st.caption(f"Location: {location_label}")
