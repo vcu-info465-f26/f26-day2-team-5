@@ -24,6 +24,7 @@ def display_venue_chart(upcoming_records):
 
 	st.subheader("Upcoming events by venue")
 	st.caption("Compare the number of upcoming events available at each venue.")
+	st.caption("Bars progress from least to most used (red to green).")
 
 	venue_column = next(
 		(column for column in records.columns if str(column).casefold() in {"venue", "venue_name"}),
@@ -42,6 +43,12 @@ def display_venue_chart(upcoming_records):
 		.rename_axis("Venue")
 		.rename("Upcoming events")
 		.reset_index()
+		.sort_values(
+			["Upcoming events", "Venue"],
+			ascending=[True, True],
+			kind="stable",
+		)
+		.reset_index(drop=True)
 	)
 
 	values = venues["Upcoming events"].to_numpy()
@@ -56,7 +63,14 @@ def display_venue_chart(upcoming_records):
 	)
 
 	fig, ax = plt.subplots(figsize=(10, 4))
-	ax.bar(venues["Venue"], values, color=color_gradient(positions))
+	ax.bar(
+		venues["Venue"],
+		values,
+		color=color_gradient(positions),
+		width=0.8,
+		edgecolor="#263238",
+		linewidth=0.35,
+	)
 	ax.set_xlabel("Venue")
 	ax.set_ylabel("Number of upcoming events")
 	ax.yaxis.set_major_locator(MaxNLocator(integer=True))
