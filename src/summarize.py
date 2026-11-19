@@ -13,9 +13,11 @@ from openai import OpenAI
 if __package__:
     from . import build_db
     from .ai_config import MODEL
+    from.snapshot_fingerprint import snapshot_fingerprint
 else:
     import build_db
     from ai_config import MODEL
+    from snapshot_fingerprint import snapshot_fingerprint
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -88,6 +90,7 @@ def main():
         )
 
     # Rebuild project.db from the committed JSON snapshots.
+    fingerprint = snapshot_fingerprint()
     build_db.main()
 
     # Calculate the facts that will be sent to Groq.
@@ -173,7 +176,7 @@ def main():
         f"*Generated {date.today().isoformat()}.*\n"
     )
 
-    save_summary(content)
+    save_summary(f"<!-- snapshot-fingerprint: {fingerprint} -->\n\n{content}")
     print(f"\nSummary saved to {SUMMARY_PATH}")
 
 

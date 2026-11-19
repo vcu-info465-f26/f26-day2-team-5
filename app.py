@@ -1,9 +1,11 @@
+import re
 import sqlite3
 from pathlib import Path
 from src.venue_compare import display_venue_chart
 from src.heatmap import display_event_heatmap
 from src.chat import display_chat
 from src.build_db import main as build_database
+from src.snapshot_fingerprint import snapshot_fingerprint
 import pandas as pd
 import streamlit as st
 
@@ -21,7 +23,21 @@ def display_saved_summary():
         st.info("The saved event summary is not available yet.")
         return
 
-    st.markdown(summary)
+    marker = re.match(r"<!-- snapshot-fingerprint: ([0-9a-f]{64}) -->\n\n", summary)
+    is_outdated = False
+
+    if marker:
+        summary = summary[marker.end():]
+        try:
+            is_outdated = marker.group(1) != snapshot_fingerprint()
+        except OSError:
+            # If a snapshot is unavailable, we can't verify freshness.
+            pass
+
+    with st.container(border=True):
+        st.markdown(summary)
+        if is_outdated:
+            st.warning("The event data has been updated since this summary was written.")
 
 
 def load_events():
