@@ -1,7 +1,7 @@
-<!-- snapshot-fingerprint: d3cf4d95a4240c0b70853640895683f6cfb83558ef57cec50742c4d3e03a1552 -->
+<!-- snapshot-fingerprint: 420752eed17a30528f11ee36202caf3b12ff9588deff83ee770b227e4b26be1b -->
 
 ## Event Overview
 
-Across all locations, the dashboard shows 100 events at 26 venues, with dates ranging from May 15, 2026 to September 29, 2027. New York, NY has the most events.
+Across all locations, the dashboard shows 99 events at 28 venues, with dates ranging from May 15, 2026 to September 29, 2027. New York has the most events.
 
-*Generated 2026-11-24.*
+*Generated 2026-11-25.*
